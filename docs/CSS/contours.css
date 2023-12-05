@@ -1,0 +1,15 @@
+.contours-serif {
+            font-family: 'Ancizar Serif', 'Adobe NotDef';
+            font-size: 700px;
+            fill: none; /* This makes the text outline-only */
+            stroke: #f00; /* Color of the outline */
+            stroke-width: 1; /* Width of the outline */
+        }
+		
+.contours-sans {
+            font-family: 'Ancizar Sans', 'Adobe NotDef';
+            font-size: 700px;
+            fill: none; /* This makes the text outline-only */
+            stroke: #00f; /* Color of the outline */
+            stroke-width: 1; /* Width of the outline */
+        }

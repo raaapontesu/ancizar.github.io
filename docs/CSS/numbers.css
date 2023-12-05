@@ -1,0 +1,51 @@
+.lined-nums {
+            font-variant-numeric: lining-nums;
+        }
+
+.oldstyle-nums {
+            font-variant-numeric: oldstyle-nums;
+        }
+
+.lined-proportional {
+            font-variant-numeric: lining-nums proportional-nums;
+        }
+
+.lined-tabular {
+            font-variant-numeric: lining-nums tabular-nums;
+        }
+		
+.lined-tabular-slashed-zero {
+			font-variant-numeric: lining-nums tabular-nums slashed-zero;
+		}
+
+.ordinal {
+            font-variant-numeric: ordinal;
+        }
+
+.slashed-zero {
+            font-variant-numeric: slashed-zero;
+        }
+
+.lined-proportional-slashed-zero {
+            font-variant-numeric: lining-nums proportional-nums slashed-zero;
+        }
+		
+.oldstyle-slashed-zero {
+            font-variant-numeric: oldstyle-nums slashed-zero;
+        }
+		
+.oldstyle-proportional {
+      font-variant-numeric: oldstyle-nums proportional-nums;
+        }
+		
+.oldystyle-tabular {
+	font-variant-numeric: oldstyle-nums tabular-nums;
+		}
+		
+.oldstyle-proportional-slashed-zero {
+        font-variant-numeric: oldstyle-nums proportional-nums slashed-zero;
+        }
+		
+.oldystyle-tabular-slashed-zero {
+		font-variant-numeric: oldstyle-nums tabular-nums slashed-zero;
+		}
