@@ -1,0 +1,1287 @@
+/* Adobe Notdef */
+
+@font-face {
+	font-family: 'Adobe NotDef';
+	src: url('Fuentes/Adobe NotDef/AND-Regular.otf') format('opentype');
+}
+
+/* ==== Consolas ==== */
+/* Redondas */
+
+@font-face {
+    font-family: 'Consolas';
+    src: url('Fuentes/Consolas/consolab.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Consolas';
+    src: url('Fuentes/Consolas/consola.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Itálicas */
+
+@font-face {
+    font-family: 'Consolas';
+    src: url('Fuentes/Consolas/consolaz.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Consolas';
+    src: url('Fuentes/Consolas/consolai.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+/* ==== Calibri ==== */
+/* Redondas */
+
+@font-face {
+    font-family: 'Calibri';
+    src: url('Fuentes/Calibri/calibrib.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Calibri';
+    src: url('Fuentes/Calibri/calibri.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Calibri';
+    src: url('Fuentes/Calibri/calibril.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Itálicas */
+
+@font-face {
+    font-family: 'Calibri';
+    src: url('Fuentes/Calibri/calibriz.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Calibri';
+    src: url('Fuentes/Calibri/calibrii.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Calibri';
+    src: url('Fuentes/Calibri/calibrili.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+/* ==== Andika ==== */
+/* Redondas */
+
+
+@font-face {
+    font-family: 'Andika';
+    src: url('Fuentes/Andika/Andika-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Andika';
+    src: url('Fuentes/Andika/Andika-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Andika';
+    src: url('Fuentes/Andika/Andika-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Andika';
+    src: url('Fuentes/Andika/Andika-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+/* ==== Ancizar Sans ==== */
+/* Redondas */
+
+@font-face {
+	font-family: 'Ancizar Sans';
+	src: url('Fuentes/Ancizar Sans/AncizarSans-ExtraBlack.woff2') format('woff2');
+	font-weight: 1000;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ancizar Sans';
+    src: url('Fuentes/Ancizar Sans/AncizarSans-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ancizar Sans';
+    src: url('Fuentes/Ancizar Sans/AncizarSans-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ancizar Sans';
+    src: url('Fuentes/Ancizar Sans/AncizarSans-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ancizar Sans';
+    src: url('Fuentes/Adobe NotDef/AND-Regular.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Ancizar Sans';
+	src: url('Fuentes/Adobe NotDef/AND-Regular.otf') format('opentype');
+	font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ancizar Sans';
+    src: url('Fuentes/Ancizar Sans/AncizarSans-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ancizar Sans';
+    src: url('Fuentes/Ancizar Sans/AncizarSans-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Ancizar Sans';
+	src: url('Fuentes/Adobe NotDef/AND-Regular.otf') format('opentype');
+	font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Ancizar Sans';
+	src: url('Fuentes/Ancizar Sans/AncizarSans-Thin.woff2') format('woff2');
+	font-weight: 100;
+    font-style: normal;
+}
+
+/* Itálicas */
+
+@font-face {
+	font-family: 'Ancizar Sans';
+	src: url('Fuentes/Ancizar Sans/AncizarSans-ExtrablackItalic.woff2') format('woff2');
+	font-weight: 1000;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ancizar Sans';
+    src: url('Fuentes/Ancizar Sans/AncizarSans-BlackItalic.woff2') format('woff2');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ancizar Sans';
+    src: url('Fuentes/Ancizar Sans/AncizarSans-ExtraBoldItalic.woff2') format('woff2');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ancizar Sans';
+    src: url('Fuentes/Ancizar Sans/AncizarSans-BoldItalic.woff2') format('woff2');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ancizar Sans';
+    src: url('Fuentes/Adobe NotDef/AND-Regular.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+	font-family: 'Ancizar Sans';
+	src: url('Fuentes/Adobe NotDef/AND-Regular.otf') format('opentype');
+	font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ancizar Sans';
+    src: url('Fuentes/Ancizar Sans/AncizarSans-Italic.woff2') format('woff2');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ancizar Sans';
+    src: url('Fuentes/Ancizar Sans/AncizarSans-LightItalic.woff2') format('woff2');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+	font-family: 'Ancizar Sans';
+	src: url('Fuentes/Adobe NotDef/AND-Regular.otf') format('opentype');
+	font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+	font-family: 'Ancizar Sans';
+	src: url('Fuentes/Ancizar Sans/AncizarSans-ThinItalic.woff2') format('woff2');
+	font-weight: 100;
+    font-style: italic;
+}
+
+
+/* ==== Noto Sans ==== */
+/* Redondas */
+
+@font-face {
+	font-family: 'Noto Sans';
+	src: url('Fuentes/Adobe NotDef/AND-Regular.otf') format('opentype');
+	font-weight: 1000;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('Fuentes/Noto Sans/NotoSans-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('Fuentes/Noto Sans/NotoSans-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('Fuentes/Noto Sans/NotoSansBold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('Fuentes/Noto Sans/NotoSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('Fuentes/Noto Sans/NotoSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('Fuentes/Noto Sans/NotoSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('Fuentes/Noto Sans/NotoSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('Fuentes/Noto Sans/NotoSans-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('Fuentes/Noto Sans/NotoSans-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+/* Itálicas */
+
+@font-face {
+	font-family: 'Noto Sans';
+	src: url('Fuentes/Adobe NotDef/AND-Regular.otf') format('opentype');
+	font-weight: 1000;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('Fuentes/Noto Sans/NotoSans-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('Fuentes/Noto Sans/NotoSans-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('Fuentes/Noto Sans/NotoSans-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('Fuentes/Noto Sans/NotoSans-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('Fuentes/Noto Sans/NotoSans-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('Fuentes/Noto Sans/NotoSans-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('Fuentes/Noto Sans/NotoSans-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('Fuentes/Noto Sans/NotoSans-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('Fuentes/Noto Sans/NotoSans-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+
+/* ==================== */
+/* Aquí van los estilos */
+/* ==================== */
+
+/* Contornos */
+
+.contours-sans {
+            font-family: 'Ancizar Sans', 'Adobe NotDef';
+            font-size: 500px;
+            fill: none; /* This makes the text outline-only */
+            stroke: #00f; /* Color of the outline */
+            stroke-width: 0.5; /* Width of the outline */
+        }
+
+/* Gentium Plus */
+
+.gl {
+    font-family: 'Gentium Plus', 'Adobe NotDef';
+    font-size: 25px;
+	margin-bottom: 0px;
+}
+
+.g8 {
+    font-family: 'Gentium Plus', 'Adobe NotDef';
+    font-size: 8px;
+}
+
+.g10 {
+    font-family: 'Gentium Plus', 'Adobe NotDef';
+    font-size: 10px;
+}
+
+.g11 {
+    font-family: 'Gentium Plus', 'Adobe NotDef';
+    font-size: 11px;
+}
+
+.g12 {
+    font-family: 'Gentium Plus', 'Adobe NotDef';
+    font-size: 12px;
+}
+
+.g14 {
+    font-family: 'Gentium Plus', 'Adobe NotDef';
+    font-size: 14px;
+}
+
+.g18 {
+    font-family: 'Gentium Plus', 'Adobe NotDef';
+    font-size: 18px;
+}
+
+.g24 {
+    font-family: 'Gentium Plus', 'Adobe NotDef';
+    font-size: 24px;
+}
+
+.g30 {
+    font-family: 'Gentium Plus', 'Adobe NotDef';
+    font-size: 30px;
+}
+
+.g36 {
+    font-family: 'Gentium Plus', 'Adobe NotDef';
+    font-size: 36px;
+}
+
+.g48 {
+    font-family: 'Gentium Plus', 'Adobe NotDef';
+    font-size: 48px;
+}
+
+.g60 {
+    font-family: 'Gentium Plus', 'Adobe NotDef';
+    font-size: 60px;
+}
+
+.g72 {
+    font-family: 'Gentium Plus', 'Adobe NotDef';
+    font-size: 72px;
+}
+
+/* Ancizar Serif */
+
+.al {
+	font-family: 'Ancizar Serif', 'Adobe NotDef';
+    font-size: 25px;
+	margin-bottom: 0px;
+}
+
+.a8 {
+    font-family: 'Ancizar Serif', 'Adobe NotDef';
+    font-size: 8px;
+}
+
+.a10 {
+    font-family: 'Ancizar Serif', 'Adobe NotDef';
+    font-size: 10px;
+}
+
+.a11 {
+    font-family: 'Ancizar Serif', 'Adobe NotDef';
+    font-size: 11px;
+}
+
+.a12 {
+    font-family: 'Ancizar Serif', 'Adobe NotDef';
+    font-size: 12px;
+}
+
+.a14 {
+    font-family: 'Ancizar Serif', 'Adobe NotDef';
+    font-size: 14px;
+}
+
+.a18 {
+    font-family: 'Ancizar Serif', 'Adobe NotDef';
+    font-size: 18px;
+}
+
+.a24 {
+    font-family: 'Ancizar Serif', 'Adobe NotDef';
+    font-size: 24px;
+}
+
+.a30 {
+    font-family: 'Ancizar Serif', 'Adobe NotDef';
+    font-size: 30px;
+}
+
+.a36 {
+    font-family: 'Ancizar Serif', 'Adobe NotDef';
+    font-size: 36px;
+}
+
+.a48 {
+    font-family: 'Ancizar Serif', 'Adobe NotDef';
+    font-size: 48px;
+}
+
+.a60 {
+    font-family: 'Ancizar Serif', 'Adobe NotDef';
+    font-size: 60px;
+}
+
+.a72 {
+    font-family: 'Ancizar Serif', 'Adobe NotDef';
+    font-size: 72px;
+}
+
+/* Noto Serif */
+
+.nl {
+	font-family: 'Noto Serif', 'Adobe NotDef';
+    font-size: 25px;
+	margin-bottom: 0px;
+}
+
+.n8 {
+    font-family: 'Noto Serif', 'Adobe NotDef';
+    font-size: 8px;
+}
+
+.n10 {
+    font-family: 'Noto Serif', 'Adobe NotDef';
+    font-size: 10px;
+}
+
+.n11 {
+    font-family: 'Noto Serif', 'Adobe NotDef';
+    font-size: 11px;
+}
+
+.n12 {
+    font-family: 'Noto Serif', 'Adobe NotDef';
+    font-size: 12px;
+}
+
+.n14 {
+    font-family: 'Noto Serif', 'Adobe NotDef';
+    font-size: 14px;
+}
+
+.n18 {
+    font-family: 'Noto Serif', 'Adobe NotDef';
+    font-size: 18px;
+}
+
+.n24 {
+    font-family: 'Noto Serif', 'Adobe NotDef';
+    font-size: 24px;
+}
+
+.n30 {
+    font-family: 'Noto Serif', 'Adobe NotDef';
+    font-size: 30px;
+}
+
+.n36 {
+    font-family: 'Noto Serif', 'Adobe NotDef';
+    font-size: 36px;
+}
+
+.n48 {
+    font-family: 'Noto Serif', 'Adobe NotDef';
+    font-size: 48px;
+}
+
+.n60 {
+    font-family: 'Noto Serif', 'Adobe NotDef';
+    font-size: 60px;
+}
+
+.n72 {
+    font-family: 'Noto Serif', 'Adobe NotDef';
+    font-size: 72px;
+}
+
+
+/* Definición de fuentes para el alfabeto */
+
+.font-noto {
+    font-family: "Noto Sans", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 48px
+}
+
+.font-ancizar {
+    font-family: "Ancizar Sans", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 48px
+}
+
+.font-andika {
+    font-family: "Andika", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 48px
+}
+
+/* Definición de fuentes para el espaciado */
+
+.space-noto {
+    font-family: "Noto Sans", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 36px
+}
+
+.space-ancizar {
+    font-family: "Ancizar Sans", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 36px
+}
+
+.space-andika {
+    font-family: "Andika", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 36px
+}
+
+/* Definición de fuentes para el kerning */
+
+.kerning-noto {
+    font-family: "Noto Sans", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 36px
+}
+
+.kerning-ancizar {
+    font-family: "Ancizar Sans", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 36px
+}
+
+.kerning-andika {
+    font-family: "Andika", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 36px
+}
+
+/* Definición de fuentes para la aplicación en contexto */
+
+.context-noto {
+    font-family: "Noto Sans", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 16px
+}
+
+.context-ancizar {
+    font-family: "Ancizar Sans", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 16px
+}
+
+.context-andika {
+    font-family: "Andika", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 16px
+}
+
+.underline-noto {
+    font-family: "Noto Sans", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 16px;
+	text-decoration: underline;
+}
+
+.underline-ancizar {
+    font-family: "Ancizar Sans", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 16px;
+	text-decoration: underline;
+}
+
+.underline-andika {
+    font-family: "Andika", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 16px;
+	text-decoration: underline;
+}
+
+/* Estilos de números */
+
+		.lined-nums {
+            font-variant-numeric: lining-nums;
+        }
+
+        .oldstyle-nums {
+            font-variant-numeric: oldstyle-nums;
+        }
+
+        .lined-proportional {
+            font-variant-numeric: lining-nums proportional-nums;
+        }
+
+        .lined-tabular {
+            font-variant-numeric: lining-nums tabular-nums;
+        }
+		
+		.lined-tabular-slashed-zero {
+			font-variant-numeric: lining-nums tabular-nums slashed-zero;
+		}
+
+        .ordinal {
+            font-variant-numeric: ordinal;
+        }
+
+        .slashed-zero {
+            font-variant-numeric: slashed-zero;
+        }
+
+        .lined-proportional-slashed-zero {
+            font-variant-numeric: lining-nums proportional-nums slashed-zero;
+        }
+		
+		.oldstyle-slashed-zero {
+            font-variant-numeric: oldstyle-nums slashed-zero;
+        }
+		
+		.oldstyle-proportional {
+            font-variant-numeric: oldstyle-nums proportional-nums;
+        }
+		
+		.oldystyle-tabular {
+			font-variant-numeric: oldstyle-nums tabular-nums;
+		}
+		
+        .oldstyle-proportional-slashed-zero {
+            font-variant-numeric: oldstyle-nums proportional-nums slashed-zero;
+        }
+		
+		.oldystyle-tabular-slashed-zero {
+			font-variant-numeric: oldstyle-nums tabular-nums slashed-zero;
+		}
+
+
+/* Variables de menú desplegable */
+
+#unicode {
+    padding: 5px;
+	font-family: Ancizar Sans;
+    font-size: 14px;
+}
+
+#alphabet {
+    padding: 5px;
+	font-family: Ancizar Sans;
+    font-size: 14px;
+}
+
+#space {
+    padding: 5px;
+	font-family: Ancizar Sans;
+    font-size: 14px;
+}
+
+#kerning {
+    padding: 5px;
+	font-family: Ancizar Sans;
+    font-size: 14px;
+}
+
+#context {
+    padding: 5px;
+	font-family: Ancizar Sans;
+    font-size: 14px;
+}
+
+/* Deslizador */
+
+#deslizador {
+            text-align: center;
+            font-size: 24px;
+            margin-top: 10px;
+        }
+		
+#deslizador-alphabet {
+            text-align: left;
+            font-size: 24px;
+            margin-top: 10px;
+        }
+		
+#deslizador-space {
+            text-align: left;
+            font-size: 24px;
+            margin-top: 10px;
+        }
+		
+#deslizador-kerning {
+            text-align: left;
+            font-size: 24px;
+            margin-top: 10px;
+        }
+
+#deslizador-context {
+            text-align: left;
+            font-size: 24px;
+            margin-top: 10px;
+        }
+
+/*#font-weights:focus {
+    outline: none;
+}
+
+/* Apply font weight dynamically
+#font-weights + div > .column {
+    font-weight: var(--font-weight);
+}*/
+
+/* =============== Tablas ================= */
+
+.limiter{
+	width:100%;
+	margin:0 auto
+	}
+	
+.unicode-table{
+	text-align: center;
+    margin: auto;
+	display:-webkit-flex;
+	justify-content:center;
+}
+
+.alphabet{
+	text-align: left;
+	/*display:-webkit-flex;*/
+	/*justify-content:center;*/
+}
+
+.wrap-table100{
+	width:90%
+	}
+table {
+            /*border-collapse: collapse;*/
+			background-color: #fff;
+            /* width: 100%; */
+            border: 2px solid #666; /* Outer border style */
+        }
+
+        th, td {
+            border: 1px solid #ccc; /* Inner border style */
+            padding: 10px;
+            text-align: center;
+        }
+
+
+.column100{
+	width:30px!important;
+	padding-left:25px
+	}
+.column100.column1{
+	padding-left:35px;
+	padding-right:35px;
+	}
+.row100.head th{
+	padding-top:30px;
+	padding-bottom:30px
+	}
+.row100 td{
+	padding-top:20px;
+	padding-bottom:20px
+	}
+.table100.ver1 td{
+	font-size:55px;
+	/*color:gray;*/
+	line-height:1.4
+	}
+.table100.ver1 th{
+	font-size:24px;
+	color:#fff;
+	line-height:1.4;
+	/*text-transform:uppercase;*/
+	background-color:#666
+	}
+.table100.ver1 .row100:hover{
+	background-color:#f2f2f2
+	}
+.table100.ver1 .hov-column-ver1{
+	background-color:#f2f2f2;
+	font-size:24px;
+	}
+.table100.ver1 .hov-column-head-ver1{
+	background-color:#484848!important;
+	font-size:20px;
+	}
+.table100.ver1 .row100 td:hover{
+	background-color:#afc9f8;
+	color:#fff
+	}
+
+/* ================ Cuerpo ================= */
+
+        html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        b, u, i, center,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, embed,
+        figure, figcaption, footer, header, hgroup,
+        menu, nav, output, ruby, section, summary,
+        time, mark, audio, video {
+			margin: 0;
+            font: inherit;
+            /* vertical-align: baseline;
+			padding: 0;
+			border: 0;
+			font-size: 100%;*/
+        }
+        /* HTML5 display-role reset for older browsers */
+  /*      article, aside, details, figcaption, figure,
+        footer, header, hgroup, menu, nav, section {
+            display: block;
+        } */
+
+        ol, ul {
+            list-style: none;
+        }
+        blockquote, q {
+            quotes: none;
+        }
+        blockquote:before, blockquote:after,
+        q:before, q:after {
+            content: '';
+            content: none;
+        }
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+        /* common styles */
+        body {
+            background: #f1f1f1;
+            color: #000;
+			font-family: 'Ancizar Sans', 'Adobe NotDef';
+			font-weight: 400;
+			font-size: 14px;
+			line-height: 1;
+        }
+		.page {
+            background: #fff;
+            width: 93%;
+            margin: 0 auto;
+            padding: 20px 20px 20px 20px;
+            overflow: hidden;
+        }
+		.widepage {
+            background: #fff;
+			width: 90%;
+            margin: 0 auto;
+            padding: 20px 20px 0 20px;
+            overflow: hidden;
+        }
+        .font-container {
+            overflow-x: auto;
+            overflow-y: hidden;
+            margin-bottom: 40px;
+            line-height: 1.3;
+            white-space: nowrap;
+            padding-bottom: 5px;
+        }
+		svg {
+            display:block;
+        }
+        h1 {
+            position: relative;
+            background: #444;
+			font-family: 'Ancizar Sans';
+            font-size: 50px;
+			font-weight: 700;
+            color: #fff;
+            padding: 10px 15px;
+            margin: 0 -20px 20px -20px;
+        }
+		h2 {
+            position: relative;
+            background: #58d;
+			font-family: 'Ancizar Sans';
+			font-weight: 700;
+            font-size: 30px;
+            color: #fff;
+            padding: 20px 25px;
+            margin: 40px -20px 20px -10px;
+        }
+		h3 {
+            position: relative;
+            background: #137;
+			font-family: 'Ancizar Sans';
+			font-weight: 700;
+            font-size: 20px;
+            color: #fff;
+            padding: 10px 25px;
+            margin: 40px -20px 20px -10px;
+        }
+		
+		footer{
+			background:#f66
+			}
+		footer{
+		background:#666
+		}
+		
+.footer-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr auto; /* Three equal columns */
+	align-items: center; /* Vertically center items in the footer */
+	padding: 0px 0px 0px 10px; /* Add padding to space out the content */
+	color: #fff
+  /* Optional styling for each column */
+}
+
+/* Style the copyright notice */
+.copyright {
+  text-align: left;
+  font-size: 14px;
+  font-family: "Ancizar Sans"
+}
+
+/* Style the contact info */
+.contact-info {
+  text-align: center;
+  font-size: 14px;
+  font-family: "Ancizar Sans"
+}
+
+/* Style the logo image */
+.logo {
+  max-width: 100%;
+  height: 100%;
+  /*display: block; /* Center the image within its column */
+}
+		
+	.gl:before {
+	content: 'Andika';
+		}
+	.al:before {
+			content: 'Ancizar Sans';
+			}
+		.nl:before {
+			content: 'Noto Sans';
+			}
+		
+		.gl:before, .al:before, .nl:before
+		{
+            font-size: 14px;
+            color: #339;
+            padding-right: 15px;
+        }		
+
+        .g8:before {
+            content: '8px';
+			}
+        .g10:before {
+            content: '10px';
+        }
+        .g11:before {
+            content: '11px';
+        }
+        .g12:before {
+            content: '12px';
+        }
+        .g14:before {
+            content: '14px';
+        }
+        .g18:before {
+            content: '18px';
+        }
+        .g24:before {
+            content: '24px';
+        }
+        .g30:before {
+            content: '30px';
+        }
+        .g36:before {
+            content: '36px';
+        }
+        .g48:before {
+            content: '48px';
+        }
+        .g60:before {
+            content: '60px';
+        }
+        .g72:before {
+            content: '72px';
+        }
+		.a8:before {
+            content: '8px';
+        }
+		.a10:before {
+            content: '10px';
+        }
+        .a11:before {
+            content: '11px';
+        }
+        .a12:before {
+            content: '12px';
+        }
+        .a14:before {
+            content: '14px';
+        }
+        .a18:before {
+            content: '18px';
+        }
+        .a24:before {
+            content: '24px';
+        }
+        .a30:before {
+            content: '30px';
+        }
+        .a36:before {
+            content: '36px';
+        }
+        .a48:before {
+            content: '48px';
+        }
+        .a60:before {
+            content: '60px';
+        }
+        .a72:before {
+            content: '72px';
+        }
+		.n8:before {
+            content: '8px';
+        }
+		.n10:before {
+            content: '10px';
+        }
+        .n11:before {
+            content: '11px';
+        }
+        .n12:before {
+            content: '12px';
+        }
+        .n14:before {
+            content: '14px';
+        }
+        .n18:before {
+            content: '18px';
+        }
+        .n24:before {
+            content: '24px';
+        }
+        .n30:before {
+            content: '30px';
+        }
+        .n36:before {
+            content: '36px';
+        }
+        .n48:before {
+            content: '48px';
+        }
+        .n60:before {
+            content: '60px';
+        }
+        .n72:before {
+            content: '72px';
+        }
+        .g8:before, .g10:before, .g11:before, .g12:before, .g14:before, .g18:before,
+		.g24:before, .g30:before, .g36:before, .g48:before, .g60:before, .g72:before,
+		.a8:before, .a10:before, .a11:before, .a12:before, .a14:before,.a18:before,
+		.a24:before, .a30:before, .a36:before, .a48:before, .a60:before, .a72:before,
+		.n8:before, .n10:before, .n11:before, .n12:before, .n14:before,.n18:before,
+		.n24:before, .n30:before, .n36:before, .n48:before, .n60:before, .n72:before
+		{
+            font-family: Arial;
+            font-size: 10px;
+            font-weight: normal;
+            font-style: normal;
+            color: #339;
+            padding-right: 15px;
+        }
+        pre {
+            display: block;
+            position: relative;
+            padding: 9px;
+            margin: 0 0 10px;
+            font-family: Monaco, Menlo, Consolas, "Courier New", monospace !important;
+            font-size: 13px;
+            line-height: 1.428571429;
+            color: #333;
+            font-weight: normal !important;
+            font-style: normal !important;
+            background-color: #f5f5f5;
+            border: 1px solid #ccc;
+            overflow-x: auto;
+            border-radius: 4px;
+        }
+        pre:after {
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 0;
+            content: 'Modo de uso';
+            line-height: 1;
+            padding: 5px 8px;
+            font-size: 12px;
+            color: #767676;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-right: none;
+            border-top: none;
+            border-radius: 0 4px 0 4px;
+            z-index: 10;
+        }
+        /* responsive */
+ /*   @media (max-width: 959px) {
+            .page {
+                width: auto;
+                margin: 0;
+            }
+        }*/
+ .doscolumnas {
+    display: flex;
+	justify-content: space-around;
+        }
+
+.columna {
+    flex: 1;
+    /* border: 1px solid #b77; */
+	background: #e0f5f5;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 20px 20px 20px;
+    overflow: hidden;
+	justify-content: space-around;
+        }
+.mono {
+	font-family: 'Consolas';
+	font-size: 13px;
+	}
+.small-caps {
+    font-variant: small-caps;
+	}

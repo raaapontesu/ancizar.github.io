@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pangramas numéricos de Ancízar</title>
+    <link href="CSS/fontface.css" rel="stylesheet">
+	<link href="CSS/features.css" rel="stylesheet">
+	<link href="CSS/numbers.css" rel="stylesheet">
+	<link href="CSS/deslizador.css" rel="stylesheet">
+	<link href="CSS/table.css" rel="stylesheet">
+	<link href="CSS/body_serif_regular.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="page">
+		<h1>
+			Ancízar 8.0
+			<br>
+			Pangrama de glifos en redondas
+		</h1>
+			<p class="columna">
+			Esta página está diseñada para poner a prueba las características OpenType y los caracteres Unicode relacionados con  subíndices, superíndices, fracciones y otros glifos en las familias Ancízar en redondas.
+			<br>
+			<br>
+			Cuando se escribió este documento, se empleó la versión 7.0 de Ancizar, del 2 de abril del 2016. Para comenzar a incorporar nuevos glifos, se deben exportar las familias de interés en formato WOFF2, con la denominación estándar contemplada en los nombres de archivo, y almacenarlas en los directorios <span class="mono">Fuentes/Ancizar Serif/</span> o <span class="mono">Fuentes/Ancizar Sans/</span>, los cuales están diseñados para albergarlas.
+			</p>
+			<br>
+		<h1>Unicode
+		</h1>
+		<h2>Superíndices de Unicode</h2>
+		<p class="columna">
+			Se consideró a Noto Serif la mejor candidata para exponer el aspecto visual de los glifos de caracteres de Unicode que conciernen a subíndices, superíndices y fracciones.
+			</p>
+			<br>
+		<div class="doscolumnas">
+			<div class="columna">
+					<h3 style="font-family: Noto Serif">Superíndices disponibles en Noto Serif</h3>
+						<h4>Latin-1 Supplement (0080-00FF)</h4>
+							<p class="sups-noto">
+								◌ª ◌² ◌³ ◌¹ ◌º
+							</p>
+						<h4>Superscripts and Subscripts (2070-209F)</h4>
+							<p class="sups-noto">
+								◌⁰ ◌ⁱ ◌⁴ ◌⁵ ◌⁶ ◌⁷ ◌⁸ ◌⁹ ◌⁺ ◌⁻ ◌⁼ ◌⁽ ◌⁾ ◌ⁿ
+							</p>
+						<h4>Letterlike Symbols (2100-214F)</h4>
+							<p class="sups-noto">
+								№ ℠ ™
+							</p>
+						<h4>Latin Extended-C (2C60-2C7F)</h4>
+							<p class="sups-noto">
+								◌ⱽ
+							</p>
+						<h4>Modifier Tone Letters (A700-A71F)</h4>
+							<p class="sups-noto">
+								◌ꜛ ◌ꜜ ◌ꜝ ◌ꜞ ◌ꜟ
+							</p>
+						<h4>Latin Extended-D (A720-A7FF)</h4>
+							<p class="sups-noto">
+								◌ꝰ ◌ꟲ ◌ꟳ ◌ꟴ ◌ꟸ ◌ꟹ
+							</p>
+						<h4>Latin Extended-E (AB30-AB6F)</h4>
+							<p class="sups-noto">
+								◌ꭜ ◌ꭝ ◌ꭞ ◌ꭟ ◌ꭩ
+							</p>
+						<h4>Latin Extended-F (10780-107BF)</h4>
+							<p class="sups-noto">
+								◌𐞁 ◌𐞂 ◌𐞃 ◌𐞄 ◌𐞅 ◌𐞇 ◌𐞈 ◌𐞉 ◌𐞊 ◌𐞋 ◌𐞌 ◌𐞍 ◌𐞎 ◌𐞏 ◌𐞐 ◌𐞑 ◌𐞒 ◌𐞓 ◌𐞔 ◌𐞕 ◌𐞖 ◌𐞗 ◌𐞘 ◌𐞙 ◌𐞚 ◌𐞛 ◌𐞜 ◌𐞝 ◌𐞞 ◌𐞟 ◌𐞠 ◌𐞡 ◌𐞢 ◌𐞣 ◌𐞤 ◌𐞥 ◌𐞦 ◌𐞧 ◌𐞨 ◌𐞩 ◌𐞪 ◌𐞫 ◌𐞬 ◌𐞭 ◌𐞮 ◌𐞯 ◌𐞰 ◌𐞲 ◌𐞳 ◌𐞴 ◌𐞵 ◌𐞶 ◌𐞷 ◌𐞸 ◌𐞹 ◌𐞺
+							</p>
+						<h4>Spacing modifying letters (02B0-02FF)</h4>
+							<p class="sups-noto">
+								◌ʰ ◌ʱ ◌ʲ ◌ʳ ◌ʴ ◌ʵ ◌ʶ ◌ʷ ◌ʸ ◌ˀ ◌ˁ ◌ˠ ◌ˡ ◌ˢ ◌ˣ ◌ˤ
+							</p>
+						<h4>Phonetic Extensions (1D00-1D7F)</h4>
+							<p class="sups-noto">
+								◌ᴬ ◌ᴭ ◌ᴮ ◌ᴯ ◌ᴰ ◌ᴱ ◌ᴲ ◌ᴳ ◌ᴴ ◌ᴵ ◌ᴶ ◌ᴷ ◌ᴸ ◌ᴹ ◌ᴺ ◌ᴻ ◌ᴼ ◌ᴽ ◌ᴾ ◌ᴿ ◌ᵀ ◌ᵁ ◌ᵂ ◌ᵃ ◌ᵄ ◌ᵅ ◌ᵆ ◌ᵇ ◌ᵈ ◌ᵉ ◌ᵊ ◌ᵋ ◌ᵌ ◌ᵍ ◌ᵏ ◌ᵐ ◌ᵑ ◌ᵒ ◌ᵓ ◌ᵖ ◌ᵗ ◌ᵘ ◌ᵚ ◌ᵛ ◌ᵝ ◌ᵞ ◌ᵟ ◌ᵠ ◌ᵸ ◌ᵎ ◌ᵔ ◌ᵕ ◌ᵙ ◌ᵜ
+							</p>
+						<h4>Phonetic Extensions Supplement (1D80-1DBF)</h4>
+							<p class="sups-noto">
+								◌ᶛ ◌ᶜ ◌ᶝ ◌ᶞ ◌ᶟ ◌ᶠ ◌ᶡ ◌ᶢ ◌ᶣ ◌ᶤ ◌ᶥ ◌ᶦ ◌ᶧ ◌ᶨ ◌ᶩ ◌ᶪ ◌ᶫ ◌ᶬ ◌ᶭ ◌ᶮ ◌ᶯ ◌ᶰ ◌ᶱ ◌ᶲ ◌ᶳ ◌ᶴ ◌ᶵ ◌ᶶ ◌ᶷ ◌ᶸ ◌ᶹ ◌ᶺ ◌ᶻ ◌ᶼ ◌ᶽ ◌ᶾ ◌ᶿ
+							</p>
+						<h4>Cyrillic Extended-B (A640-A69F)</h4>
+							<p class="sups-noto">
+								◌ꚜ ◌ꚝ
+							</p>
+						<h4>Cyrillic Extended-D (1E030-1E08F)</h4>
+							<p class="sups-noto">
+								◌𞀰 ◌𞀱 ◌𞀲 ◌𞀳 ◌𞀷 ◌𞀵 ◌𞀶 ◌𞀷 ◌𞀸 ◌𞀹 ◌𞀺 ◌𞀻 ◌𞀼 ◌𞀽 ◌𞀾 ◌𞀿 ◌𞁀 ◌𞁁 ◌𞁂 ◌𞁃 ◌𞁄 ◌𞁅 ◌𞁆 ◌𞁇 ◌𞁈 ◌𞁉 ◌𞁊 ◌𞁋 ◌𞁌 ◌𞁍 ◌𞁎 ◌𞁏 ◌𞁐 ◌𞁫 ◌𞁬 ◌𞁭
+								</p>
+						<h4>Latin Extended-F (1F100-1F1FF)</h4>
+							<p class="sups-noto">
+								◌𐞀 ◌𐞁 ◌𐞂 ◌𐞃 ◌𐞄 ◌𐞅 ◌𐞇 ◌𐞈 ◌𐞉 ◌𐞊 ◌𐞋 ◌𐞌 ◌𐞍 ◌𐞎 ◌𐞏 ◌𐞐 ◌𐞑 ◌𐞒 ◌𐞓 ◌𐞔 ◌𐞕 ◌𐞖 ◌𐞗 ◌𐞘 ◌𐞙 ◌𐞚 ◌𐞛 ◌𐞜 ◌𐞝 ◌𐞞 ◌𐞟 ◌𐞠 ◌𐞡 ◌𐞢 ◌𐞣 ◌𐞤 ◌𐞥 ◌𐞦 ◌𐞧 ◌𐞨 ◌𐞩 ◌𐞪 ◌𐞫 ◌𐞬 ◌𐞭 ◌𐞮 ◌𐞯 ◌𐞰 ◌𐞲 ◌𐞳 ◌𐞴 ◌𐞵 ◌𐞶 ◌𐞷 ◌𐞸 ◌𐞹 ◌𐞺
+							</p>
+						<h4>Enclosed Alphanumeric Supplement (1F100-1F1FF)</h4>
+							<p class="sups-noto">
+								◌🅪 ◌🅫 ◌🅬
+							</p>
+						<br>
+						<br>
+			</div>
+						
+				<div class="columna">
+					<h3 style="font-family: Ancizar Serif">Superíndices disponibles en Ancizar Serif</h3>
+						<h4>Latin-1 Supplement (0080-00FF)</h4>
+							<p class="sups-ancizar-serif-unicode">
+								◌ª ◌² ◌³ ◌¹ ◌º
+							</p>
+						<h4>Superscripts and Subscripts (2070-209F)</h4>
+							<p class="sups-ancizar-serif-unicode">
+								◌⁰ ◌ⁱ ◌⁴ ◌⁵ ◌⁶ ◌⁷ ◌⁸ ◌⁹ ◌⁺ ◌⁻ ◌⁼ ◌⁽ ◌⁾ ◌ⁿ
+							</p>
+						<h4>Letterlike Symbols (2100-214F)</h4>
+							<p class="sups-ancizar-serif-unicode">
+								№ ℠ ™
+							</p>
+						<h4>Latin Extended-C (2C60-2C7F)</h4>
+							<p class="sups-ancizar-serif-unicode">
+								◌ⱽ
+							</p>
+						<h4>Modifier Tone Letters (A700-A71F)</h4>
+							<p class="sups-ancizar-serif-unicode">
+								◌ꜛ ◌ꜜ ◌ꜝ ◌ꜞ ◌ꜟ
+							</p>
+						<h4>Latin Extended-D (A720-A7FF)</h4>
+							<p class="sups-ancizar-serif-unicode">
+								◌ꝰ ◌ꟲ ◌ꟳ ◌ꟴ ◌ꟸ ◌ꟹ
+							</p>
+						<h4>Latin Extended-E (AB30-AB6F)</h4>
+							<p class="sups-ancizar-serif-unicode">
+								◌ꭜ ◌ꭝ ◌ꭞ ◌ꭟ ◌ꭩ
+							</p>
+						<h4>Latin Extended-F (10780-107BF)</h4>
+							<p class="sups-ancizar-serif-unicode">
+								◌𐞁 ◌𐞂 ◌𐞃 ◌𐞄 ◌𐞅 ◌𐞇 ◌𐞈 ◌𐞉 ◌𐞊 ◌𐞋 ◌𐞌 ◌𐞍 ◌𐞎 ◌𐞏 ◌𐞐 ◌𐞑 ◌𐞒 ◌𐞓 ◌𐞔 ◌𐞕 ◌𐞖 ◌𐞗 ◌𐞘 ◌𐞙 ◌𐞚 ◌𐞛 ◌𐞜 ◌𐞝 ◌𐞞 ◌𐞟 ◌𐞠 ◌𐞡 ◌𐞢 ◌𐞣 ◌𐞤 ◌𐞥 ◌𐞦 ◌𐞧 ◌𐞨 ◌𐞩 ◌𐞪 ◌𐞫 ◌𐞬 ◌𐞭 ◌𐞮 ◌𐞯 ◌𐞰 ◌𐞲 ◌𐞳 ◌𐞴 ◌𐞵 ◌𐞶 ◌𐞷 ◌𐞸 ◌𐞹 ◌𐞺
+							</p>
+						<h4>Spacing modifying letters (02B0-02FF)</h4>
+							<p class="sups-ancizar-serif-unicode">
+								◌ʰ ◌ʱ ◌ʲ ◌ʳ ◌ʴ ◌ʵ ◌ʶ ◌ʷ ◌ʸ ◌ˀ ◌ˁ ◌ˠ ◌ˡ ◌ˢ ◌ˣ ◌ˤ
+							</p>
+						<h4>Phonetic Extensions (1D00-1D7F)</h4>
+							<p class="sups-ancizar-serif-unicode">
+								◌ᴬ ◌ᴭ ◌ᴮ ◌ᴯ ◌ᴰ ◌ᴱ ◌ᴲ ◌ᴳ ◌ᴴ ◌ᴵ ◌ᴶ ◌ᴷ ◌ᴸ ◌ᴹ ◌ᴺ ◌ᴻ ◌ᴼ ◌ᴽ ◌ᴾ ◌ᴿ ◌ᵀ ◌ᵁ ◌ᵂ ◌ᵃ ◌ᵄ ◌ᵅ ◌ᵆ ◌ᵇ ◌ᵈ ◌ᵉ ◌ᵊ ◌ᵋ ◌ᵌ ◌ᵍ ◌ᵏ ◌ᵐ ◌ᵑ ◌ᵒ ◌ᵓ ◌ᵖ ◌ᵗ ◌ᵘ ◌ᵚ ◌ᵛ ◌ᵝ ◌ᵞ ◌ᵟ ◌ᵠ ◌ᵸ ◌ᵎ ◌ᵔ ◌ᵕ ◌ᵙ ◌ᵜ
+							</p>
+						<h4>Phonetic Extensions Supplement (1D80-1DBF)</h4>
+							<p class="sups-ancizar-serif-unicode">
+								◌ᶛ ◌ᶜ ◌ᶝ ◌ᶞ ◌ᶟ ◌ᶠ ◌ᶡ ◌ᶢ ◌ᶣ ◌ᶤ ◌ᶥ ◌ᶦ ◌ᶧ ◌ᶨ ◌ᶩ ◌ᶪ ◌ᶫ ◌ᶬ ◌ᶭ ◌ᶮ ◌ᶯ ◌ᶰ ◌ᶱ ◌ᶲ ◌ᶳ ◌ᶴ ◌ᶵ ◌ᶶ ◌ᶷ ◌ᶸ ◌ᶹ ◌ᶺ ◌ᶻ ◌ᶼ ◌ᶽ ◌ᶾ ◌ᶿ
+							</p>
+						<h4>Cyrillic Extended-B (A640-A69F)</h4>
+							<p class="sups-ancizar-serif-unicode">
+								◌ꚜ ◌ꚝ
+							</p>
+							<h4>Cyrillic Extended-D (1E030-1E08F)</h4>
+							<p class="sups-ancizar-serif-unicode">
+								◌𞀰 ◌𞀱 ◌𞀲 ◌𞀳 ◌𞀷 ◌𞀵 ◌𞀶 ◌𞀷 ◌𞀸 ◌𞀹 ◌𞀺 ◌𞀻 ◌𞀼 ◌𞀽 ◌𞀾 ◌𞀿 ◌𞁀 ◌𞁁 ◌𞁂 ◌𞁃 ◌𞁄 ◌𞁅 ◌𞁆 ◌𞁇 ◌𞁈 ◌𞁉 ◌𞁊 ◌𞁋 ◌𞁌 ◌𞁍 ◌𞁎 ◌𞁏 ◌𞁐 ◌𞁫 ◌𞁬 ◌𞁭
+								</p>
+							<h4>Latin Extended-F (1F100-1F1FF)</h4>
+							<p class="sups-ancizar-serif-unicode">
+								◌𐞀 ◌𐞁 ◌𐞂 ◌𐞃 ◌𐞄 ◌𐞅 ◌𐞇 ◌𐞈 ◌𐞉 ◌𐞊 ◌𐞋 ◌𐞌 ◌𐞍 ◌𐞎 ◌𐞏 ◌𐞐 ◌𐞑 ◌𐞒 ◌𐞓 ◌𐞔 ◌𐞕 ◌𐞖 ◌𐞗 ◌𐞘 ◌𐞙 ◌𐞚 ◌𐞛 ◌𐞜 ◌𐞝 ◌𐞞 ◌𐞟 ◌𐞠 ◌𐞡 ◌𐞢 ◌𐞣 ◌𐞤 ◌𐞥 ◌𐞦 ◌𐞧 ◌𐞨 ◌𐞩 ◌𐞪 ◌𐞫 ◌𐞬 ◌𐞭 ◌𐞮 ◌𐞯 ◌𐞰 ◌𐞲 ◌𐞳 ◌𐞴 ◌𐞵 ◌𐞶 ◌𐞷 ◌𐞸 ◌𐞹 ◌𐞺
+							</p>
+							<h4>Enclosed Alphanumeric Supplement (1F100-1F1FF)</h4>
+							<p class="sups-ancizar-serif-unicode">
+								◌🅪 ◌🅫 ◌🅬
+							</p>
+				</div>
+					<div class="columna">
+					<h3 style="font-family: Ancizar Sans">Superíndices disponibles en Ancizar Sans</h3>
+						<h4>Latin-1 Supplement (0080-00FF)</h4>
+							<p class="sups-ancizar-sans-unicode">
+								◌ª ◌² ◌³ ◌¹ ◌º
+							</p>
+						<h4>Superscripts and Subscripts (2070-209F)</h4>
+							<p class="sups-ancizar-sans-unicode">
+								◌⁰ ◌ⁱ ◌⁴ ◌⁵ ◌⁶ ◌⁷ ◌⁸ ◌⁹ ◌⁺ ◌⁻ ◌⁼ ◌⁽ ◌⁾ ◌ⁿ
+							</p>
+						<h4>Letterlike Symbols (2100-214F)</h4>
+							<p class="sups-ancizar-sans-unicode">
+								№ ℠ ™
+							</p>
+						<h4>Latin Extended-C (2C60-2C7F)</h4>
+							<p class="sups-ancizar-sans-unicode">
+								◌ⱽ
+							</p>
+						<h4>Modifier Tone Letters (A700-A71F)</h4>
+							<p class="sups-ancizar-sans-unicode">
+								◌ꜛ ◌ꜜ ◌ꜝ ◌ꜞ ◌ꜟ
+							</p>
+						<h4>Latin Extended-D (A720-A7FF)</h4>
+							<p class="sups-ancizar-sans-unicode">
+								◌ꝰ ◌ꟲ ◌ꟳ ◌ꟴ ◌ꟸ ◌ꟹ
+							</p>
+						<h4>Latin Extended-E (AB30-AB6F)</h4>
+							<p class="sups-ancizar-sans-unicode">
+								◌ꭜ ◌ꭝ ◌ꭞ ◌ꭟ ◌ꭩ
+							</p>
+						<h4>Latin Extended-F (10780-107BF)</h4>
+							<p class="sups-ancizar-sans-unicode">
+								◌𐞁 ◌𐞂 ◌𐞃 ◌𐞄 ◌𐞅 ◌𐞇 ◌𐞈 ◌𐞉 ◌𐞊 ◌𐞋 ◌𐞌 ◌𐞍 ◌𐞎 ◌𐞏 ◌𐞐 ◌𐞑 ◌𐞒 ◌𐞓 ◌𐞔 ◌𐞕 ◌𐞖 ◌𐞗 ◌𐞘 ◌𐞙 ◌𐞚 ◌𐞛 ◌𐞜 ◌𐞝 ◌𐞞 ◌𐞟 ◌𐞠 ◌𐞡 ◌𐞢 ◌𐞣 ◌𐞤 ◌𐞥 ◌𐞦 ◌𐞧 ◌𐞨 ◌𐞩 ◌𐞪 ◌𐞫 ◌𐞬 ◌𐞭 ◌𐞮 ◌𐞯 ◌𐞰 ◌𐞲 ◌𐞳 ◌𐞴 ◌𐞵 ◌𐞶 ◌𐞷 ◌𐞸 ◌𐞹 ◌𐞺
+							</p>
+						<h4>Spacing modifying letters (02B0-02FF)</h4>
+							<p class="sups-ancizar-sans-unicode">
+								◌ʰ ◌ʱ ◌ʲ ◌ʳ ◌ʴ ◌ʵ ◌ʶ ◌ʷ ◌ʸ ◌ˀ ◌ˁ ◌ˠ ◌ˡ ◌ˢ ◌ˣ ◌ˤ
+							</p>
+						<h4>Phonetic Extensions (1D00-1D7F)</h4>
+							<p class="sups-ancizar-sans-unicode">
+								◌ᴬ ◌ᴭ ◌ᴮ ◌ᴯ ◌ᴰ ◌ᴱ ◌ᴲ ◌ᴳ ◌ᴴ ◌ᴵ ◌ᴶ ◌ᴷ ◌ᴸ ◌ᴹ ◌ᴺ ◌ᴻ ◌ᴼ ◌ᴽ ◌ᴾ ◌ᴿ ◌ᵀ ◌ᵁ ◌ᵂ ◌ᵃ ◌ᵄ ◌ᵅ ◌ᵆ ◌ᵇ ◌ᵈ ◌ᵉ ◌ᵊ ◌ᵋ ◌ᵌ ◌ᵍ ◌ᵏ ◌ᵐ ◌ᵑ ◌ᵒ ◌ᵓ ◌ᵖ ◌ᵗ ◌ᵘ ◌ᵚ ◌ᵛ ◌ᵝ ◌ᵞ ◌ᵟ ◌ᵠ ◌ᵸ ◌ᵎ ◌ᵔ ◌ᵕ ◌ᵙ ◌ᵜ
+							</p>
+						<h4>Phonetic Extensions Supplement (1D80-1DBF)</h4>
+							<p class="sups-ancizar-sans-unicode">
+								◌ᶛ ◌ᶜ ◌ᶝ ◌ᶞ ◌ᶟ ◌ᶠ ◌ᶡ ◌ᶢ ◌ᶣ ◌ᶤ ◌ᶥ ◌ᶦ ◌ᶧ ◌ᶨ ◌ᶩ ◌ᶪ ◌ᶫ ◌ᶬ ◌ᶭ ◌ᶮ ◌ᶯ ◌ᶰ ◌ᶱ ◌ᶲ ◌ᶳ ◌ᶴ ◌ᶵ ◌ᶶ ◌ᶷ ◌ᶸ ◌ᶹ ◌ᶺ ◌ᶻ ◌ᶼ ◌ᶽ ◌ᶾ ◌ᶿ
+							</p>
+						<h4>Cyrillic Extended-B (A640-A69F)</h4>
+							<p class="sups-ancizar-sans-unicode">
+								◌ꚜ ◌ꚝ
+							</p>
+							<h4>Cyrillic Extended-D (1E030-1E08F)</h4>
+							<p class="sups-ancizar-sans-unicode">
+								◌𞀰 ◌𞀱 ◌𞀲 ◌𞀳 ◌𞀷 ◌𞀵 ◌𞀶 ◌𞀷 ◌𞀸 ◌𞀹 ◌𞀺 ◌𞀻 ◌𞀼 ◌𞀽 ◌𞀾 ◌𞀿 ◌𞁀 ◌𞁁 ◌𞁂 ◌𞁃 ◌𞁄 ◌𞁅 ◌𞁆 ◌𞁇 ◌𞁈 ◌𞁉 ◌𞁊 ◌𞁋 ◌𞁌 ◌𞁍 ◌𞁎 ◌𞁏 ◌𞁐 ◌𞁫 ◌𞁬 ◌𞁭
+								</p>
+							<h4>Latin Extended-F (10780-107BF)</h4>
+							<p class="sups-ancizar-sans-unicode">
+								◌𐞀 ◌𐞁 ◌𐞂 ◌𐞃 ◌𐞄 ◌𐞅 ◌𐞇 ◌𐞈 ◌𐞉 ◌𐞊 ◌𐞋 ◌𐞌 ◌𐞍 ◌𐞎 ◌𐞏 ◌𐞐 ◌𐞑 ◌𐞒 ◌𐞓 ◌𐞔 ◌𐞕 ◌𐞖 ◌𐞗 ◌𐞘 ◌𐞙 ◌𐞚 ◌𐞛 ◌𐞜 ◌𐞝 ◌𐞞 ◌𐞟 ◌𐞠 ◌𐞡 ◌𐞢 ◌𐞣 ◌𐞤 ◌𐞥 ◌𐞦 ◌𐞧 ◌𐞨 ◌𐞩 ◌𐞪 ◌𐞫 ◌𐞬 ◌𐞭 ◌𐞮 ◌𐞯 ◌𐞰 ◌𐞲 ◌𐞳 ◌𐞴 ◌𐞵 ◌𐞶 ◌𐞷 ◌𐞸 ◌𐞹 ◌𐞺
+							</p>
+							<h4>Enclosed Alphanumeric Supplement (1F100-1F1FF)</h4>
+							<p class="sups-ancizar-sans-unicode">
+								◌🅪 ◌🅫 ◌🅬
+							</p>
+					</div>
+				</div>
+		<h2>Subíndices de Unicode</h2>
+		<div class="doscolumnas">
+			<div class="columna">
+					<h3 style="font-family: Noto Serif">Subíndices disponibles en Noto Serif</h3>
+						<h4>Superscripts and Subscripts (2070-209F)</h4>
+							<p class="sups-noto">
+								◌₀ ◌₁ ◌₂ ◌₃ ◌₄ ◌₅ ◌₆ ◌₇ ◌₈ ◌₉ ◌₊ ◌₋ ◌₌ ◌₍ ◌₎ ◌ₐ ◌ₑ ◌ₒ ◌ₓ ◌ₔ ◌ₕ ◌ₖ ◌ₗ ◌ₘ ◌ₙ ◌ₚ ◌ₛ ◌ₜ
+							</p>
+							<br>
+						<h4>Miscellaneous Technical (2300-23FF)</h4>
+							<p class="sups-noto">
+								◌⏨ (no disponible: ver U+23E8)
+							</p>
+							<br>
+						<h4>Latin Extended-C (2C60-2C7F)</h4>
+							<p class="sups-noto">
+								◌ⱼ
+							</p>
+							<br>
+						<h4>Phonetic Extensions (1D00-1D7F)</h4>
+							<p class="sups-noto">
+								◌ᵢ ◌ᵣ ◌ᵤ ◌ᵥ ◌ᵦ ◌ᵧ ◌ᵨ ◌ᵩ ◌ᵪ
+							</p>
+							<br>
+						<h4>Cyrillic Extended-D (1E030-1E08F)</h4>
+							<p class="sups-noto">
+								◌𞁑 ◌𞁒 ◌𞁓 ◌𞁔 ◌𞁕 ◌𞁖 ◌𞁗 ◌𞁘 ◌𞁙 ◌𞁚 ◌𞁛 ◌𞁜 ◌𞁝 ◌𞁞 ◌𞁟 ◌𞁠 ◌𞁡 ◌𞁢 ◌𞁣 ◌𞁤 ◌𞁥 ◌𞁦 ◌𞁧 ◌𞁨 ◌𞁩 ◌𞁪
+							</p>
+			</div>
+						
+				<div class="columna">
+					<h3 style="font-family: Ancizar Serif">Subíndices disponibles en Ancizar Serif</h3>
+						<h4>Superscripts and Subscripts (2070-209F)</h4>
+							<p class="sups-ancizar-serif-unicode">
+								◌₀ ◌₁ ◌₂ ◌₃ ◌₄ ◌₅ ◌₆ ◌₇ ◌₈ ◌₉ ◌₊ ◌₋ ◌₌ ◌₍ ◌₎ ◌ₐ ◌ₑ ◌ₒ ◌ₓ ◌ₔ ◌ₕ ◌ₖ ◌ₗ ◌ₘ ◌ₙ ◌ₚ ◌ₛ ◌ₜ
+							</p>
+							<br>
+						<h4>Miscellaneous Technical (2300-23FF)</h4>
+							<p class="sups-ancizar-serif-unicode">
+								◌⏨
+							</p>
+							<br>
+						<h4>Latin Extended-C (2C60-2C7F)</h4>
+							<p class="sups-ancizar-serif-unicode">
+								◌ⱼ
+							</p>
+							<br>
+						<h4>Phonetic Extensions (1D00-1D7F)</h4>
+							<p class="sups-ancizar-serif-unicode">
+								◌ᵢ ◌ᵣ ◌ᵤ ◌ᵥ ◌ᵦ ◌ᵧ ◌ᵨ ◌ᵩ ◌ᵪ
+							</p>
+							<br>
+						<h4>Cyrillic Extended-D (1E030-1E08F)</h4>
+							<p class="sups-ancizar-serif-unicode">
+								◌𞁑 ◌𞁒 ◌𞁓 ◌𞁔 ◌𞁕 ◌𞁖 ◌𞁗 ◌𞁘 ◌𞁙 ◌𞁚 ◌𞁛 ◌𞁜 ◌𞁝 ◌𞁞 ◌𞁟 ◌𞁠 ◌𞁡 ◌𞁢 ◌𞁣 ◌𞁤 ◌𞁥 ◌𞁦 ◌𞁧 ◌𞁨 ◌𞁩 ◌𞁪
+							</p>
+				</div>
+					<div class="columna">
+						<h3 style="font-family: Ancizar Sans">Subíndices disponibles en Ancizar Sans</h3>
+						<h4>Superscripts and Subscripts (2070-209F)</h4>
+							<p class="sups-ancizar-sans-unicode">
+								◌₀ ◌₁ ◌₂ ◌₃ ◌₄ ◌₅ ◌₆ ◌₇ ◌₈ ◌₉ ◌₊ ◌₋ ◌₌ ◌₍ ◌₎ ◌ₐ ◌ₑ ◌ₒ ◌ₓ ◌ₔ ◌ₕ ◌ₖ ◌ₗ ◌ₘ ◌ₙ ◌ₚ ◌ₛ ◌ₜ
+							</p>
+							<br>
+						<h4>Miscellaneous Technical (2300-23FF)</h4>
+							<p class="sups-ancizar-sans-unicode">
+								◌⏨
+							</p>
+							<br>
+						<h4>Latin Extended-C (2C60-2C7F)</h4>
+							<p class="sups-ancizar-sans-unicode">
+								◌ⱼ
+							</p>
+							<br>
+						<h4>Phonetic Extensions (1D00-1D7F)</h4>
+							<p class="sups-ancizar-sans-unicode">
+								◌ᵢ ◌ᵣ ◌ᵤ ◌ᵥ ◌ᵦ ◌ᵧ ◌ᵨ ◌ᵩ ◌ᵪ
+							</p>
+							<br>
+						<h4>Cyrillic Extended-D (1E030-1E08F)</h4>
+							<p class="sups-ancizar-sans-unicode">
+								◌𞁑 ◌𞁒 ◌𞁓 ◌𞁔 ◌𞁕 ◌𞁖 ◌𞁗 ◌𞁘 ◌𞁙 ◌𞁚 ◌𞁛 ◌𞁜 ◌𞁝 ◌𞁞 ◌𞁟 ◌𞁠 ◌𞁡 ◌𞁢 ◌𞁣 ◌𞁤 ◌𞁥 ◌𞁦 ◌𞁧 ◌𞁨 ◌𞁩 ◌𞁪
+							</p>
+					</div>
+				</div>
+		<h2>Superíndices combinables de Unicode</h2>
+		<div class="doscolumnas">
+			<div class="columna">
+					<h3 style="font-family: Noto Serif">Superíndices combinables disponibles en Noto Serif</h3>
+						<h4>Combining Diacritical Marks (0300-036F)</h4>
+							<p class="sups-noto">
+								◌ͣ  ◌ͤ  ◌ͥ  ◌ͦ  ◌ͧ  ◌ͨ  ◌ͩ  ◌ͪ  ◌ͫ  ◌ͬ  ◌ͭ  ◌ͮ  ◌ͯ
+							</p>
+							<br>
+						<h4>Combining Diacritical Marks Extended (1AB0-1AFF)</h4>
+							<p class="sups-noto">
+								◌ᪿ ◌ᫀ ◌ᫌ ◌ᫍ ◌ᫎ
+							</p>
+							<br>
+						<h4>Combining Diacritical Marks Supplement (1DC0-1DFF)</h4>
+							<p class="sups-noto">
+								◌᷒ ◌ᷓ ◌ᷔ ◌ᷕ ◌ᷖ ◌ᷗ ◌ᷘ ◌ᷙ ◌ᷚ ◌ᷛ ◌ᷜ ◌ᷝ ◌ᷞ ◌ᷟ ◌ᷠ ◌ᷡ ◌ᷢ ◌ᷣ ◌ᷤ ◌ᷥ ◌ᷦ ◌ᷧ ◌ᷨ ◌ᷪ ◌ᷫ ◌ᷬ ◌ᷭ ◌ᷮ ◌ᷯ ◌ᷰ ◌ᷱ ◌ᷲ ◌ᷳ ◌ᷴ ◌ᷩ
+							</p>
+							<br>
+						<h4>Cyrillic Extended-A (2DE0-2DFF)</h4>
+							<p class="sups-noto">
+								 ◌ⷠ ◌ⷡ ◌ⷢ ◌ⷣ ◌ⷤ ◌ⷥ ◌ⷦ ◌ⷧ ◌ⷨ ◌ⷩ ◌ⷪ ◌ⷫ ◌ⷬ ◌ⷭ ◌ⷮ ◌ⷯ ◌ⷰ ◌ⷱ ◌ⷲ ◌ⷳ ◌ⷴ ◌ⷵ ◌ⷶ ◌ⷷ ◌ⷸ ◌ⷹ ◌ⷺ ◌ⷻ ◌ⷼ ◌ⷽ ◌ⷾ ◌ⷿ
+							</p>
+						<h4>Cyrillic Extended-B (A640-A69F)</h4>
+							<p class="sups-noto">
+								◌ꙴ ◌ꙵ ◌ꙶ ◌ꙷ ◌ꙸ ◌ꙹ ◌ꙺ ◌ꙻ ◌ꚞ ◌ꚟ ◌꙼ ◌꙽
+							</p>
+						<h4>Cyrillic Extended-D (1E030-1E08F)</h4>
+							<p class="sups-noto">
+								◌𞂏
+							</p>
+			</div>		
+				<div class="columna">
+					<h3 style="font-family: Ancizar Serif">Superíndices combinables disponibles en Ancizar Serif</h3>
+						<h4>Combining Diacritical Marks (0300-036F)</h4>
+							<p class="sups-ancizar-serif-unicode">
+								◌ͣ  ◌ͤ  ◌ͥ  ◌ͦ  ◌ͧ  ◌ͨ  ◌ͩ  ◌ͪ  ◌ͫ  ◌ͬ  ◌ͭ  ◌ͮ  ◌ͯ
+							</p>
+							<br>
+						<h4>Combining Diacritical Marks Extended (1AB0-1AFF)</h4>
+							<p class="sups-ancizar-serif-unicode">
+								◌ᪿ ◌ᫀ ◌ᫌ ◌ᫍ ◌ᫎ
+							</p>
+							<br>
+						<h4>Combining Diacritical Marks Supplement (1DC0-1DFF)</h4>
+							<p class="sups-ancizar-serif-unicode">
+								◌᷒ ◌ᷓ ◌ᷔ ◌ᷕ ◌ᷖ ◌ᷗ ◌ᷘ ◌ᷙ ◌ᷚ ◌ᷛ ◌ᷜ ◌ᷝ ◌ᷞ ◌ᷟ ◌ᷠ ◌ᷡ ◌ᷢ ◌ᷣ ◌ᷤ ◌ᷥ ◌ᷦ ◌ᷧ ◌ᷨ ◌ᷪ ◌ᷫ ◌ᷬ ◌ᷭ ◌ᷮ ◌ᷯ ◌ᷰ ◌ᷱ ◌ᷲ ◌ᷳ ◌ᷴ ◌ᷩ
+							</p>
+							<br>
+						<h4>Cyrillic Extended-A (2DE0-2DFF)</h4>
+							<p class="sups-ancizar-serif-unicode">
+								 ◌ⷠ ◌ⷡ ◌ⷢ ◌ⷣ ◌ⷤ ◌ⷥ ◌ⷦ ◌ⷧ ◌ⷨ ◌ⷩ ◌ⷪ ◌ⷫ ◌ⷬ ◌ⷭ ◌ⷮ ◌ⷯ ◌ⷰ ◌ⷱ ◌ⷲ ◌ⷳ ◌ⷴ ◌ⷵ ◌ⷶ ◌ⷷ ◌ⷸ ◌ⷹ ◌ⷺ ◌ⷻ ◌ⷼ ◌ⷽ ◌ⷾ ◌ⷿ
+							</p>
+						<h4>Cyrillic Extended-B (A640-A69F)</h4>
+							<p class="sups-ancizar-serif-unicode">
+								◌ꙴ ◌ꙵ ◌ꙶ ◌ꙷ ◌ꙸ ◌ꙹ ◌ꙺ ◌ꙻ ◌ꚞ ◌ꚟ ◌꙼ ◌꙽
+							</p>
+						<h4>Cyrillic Extended-D (1E030-1E08F)</h4>
+							<p class="sups-ancizar-serif-unicode">
+								◌𞂏
+							</p>
+				</div>
+					<div class="columna">
+						<h3 style="font-family: Ancizar Sans">Superíndices combinables disponibles en Ancizar Sans</h3>
+						<h4>Combining Diacritical Marks (0300-036F)</h4>
+							<p class="sups-ancizar-sans-unicode">
+								◌ͣ  ◌ͤ  ◌ͥ  ◌ͦ  ◌ͧ  ◌ͨ  ◌ͩ  ◌ͪ  ◌ͫ  ◌ͬ  ◌ͭ  ◌ͮ  ◌ͯ
+							</p>
+							<br>
+						<h4>Combining Diacritical Marks Extended (1AB0-1AFF)</h4>
+							<p class="sups-ancizar-sans-unicode">
+								◌ᪿ ◌ᫀ ◌ᫌ ◌ᫍ ◌ᫎ
+							</p>
+							<br>
+						<h4>Combining Diacritical Marks Supplement (1DC0-1DFF)</h4>
+							<p class="sups-ancizar-sans-unicode">
+								◌᷒ ◌ᷓ ◌ᷔ ◌ᷕ ◌ᷖ ◌ᷗ ◌ᷘ ◌ᷙ ◌ᷚ ◌ᷛ ◌ᷜ ◌ᷝ ◌ᷞ ◌ᷟ ◌ᷠ ◌ᷡ ◌ᷢ ◌ᷣ ◌ᷤ ◌ᷥ ◌ᷦ ◌ᷧ ◌ᷨ ◌ᷪ ◌ᷫ ◌ᷬ ◌ᷭ ◌ᷮ ◌ᷯ ◌ᷰ ◌ᷱ ◌ᷲ ◌ᷳ ◌ᷴ ◌ᷩ
+							</p>
+							<br>
+						<h4>Cyrillic Extended-A (2DE0-2DFF)</h4>
+							<p class="sups-ancizar-sans-unicode">
+								 ◌ⷠ ◌ⷡ ◌ⷢ ◌ⷣ ◌ⷤ ◌ⷥ ◌ⷦ ◌ⷧ ◌ⷨ ◌ⷩ ◌ⷪ ◌ⷫ ◌ⷬ ◌ⷭ ◌ⷮ ◌ⷯ ◌ⷰ ◌ⷱ ◌ⷲ ◌ⷳ ◌ⷴ ◌ⷵ ◌ⷶ ◌ⷷ ◌ⷸ ◌ⷹ ◌ⷺ ◌ⷻ ◌ⷼ ◌ⷽ ◌ⷾ ◌ⷿ
+							</p>
+						<h4>Cyrillic Extended-B (A640-A69F)</h4>
+							<p class="sups-ancizar-sans-unicode">
+								◌ꙴ ◌ꙵ ◌ꙶ ◌ꙷ ◌ꙸ ◌ꙹ ◌ꙺ ◌ꙻ ◌ꚞ ◌ꚟ ◌꙼ ◌꙽
+							</p>
+						<h4>Cyrillic Extended-D (1E030-1E08F)</h4>
+							<p class="sups-ancizar-sans-unicode">
+								◌𞂏
+							</p>
+					</div>
+				</div>
+		<h2>Subíndices combinables de Unicode</h2>
+		<div class="doscolumnas">
+			<div class="columna">
+					<h3 style="font-family: Noto Serif">Subíndices combinables disponibles en Noto Serif</h3>
+						<h4>Combining Diacritical Marks Supplement (1DC0-1DFF)</h4>
+							<p class="sups-noto">
+								◌᷊
+							</p>
+			</div>
+						
+				<div class="columna">
+					<h3 style="font-family: Ancizar Serif">Subíndices combinables disponibles en Ancizar Serif</h3>
+						<h4>Combining Diacritical Marks Supplement (1DC0-1DFF)</h4>
+							<p class="sups-ancizar-serif-unicode">
+								◌᷊
+							</p>
+				</div>
+					<div class="columna">
+						<h3 style="font-family: Ancizar Sans">Subíndices combinables disponibles en Ancizar Sans</h3>
+						<h4>Combining Diacritical Marks Supplement (1DC0-1DFF)</h4>
+							<p class="sups-ancizar-sans-unicode">
+								◌᷊
+							</p>
+					</div>
+				</div>
+		<h2>Fracciones de Unicode</h2>
+		<div class="doscolumnas">
+			<div class="columna">
+					<h3 style="font-family: Noto Serif">Fracciones disponibles en Noto Serif</h3>
+						<h4>Basic Latin (0000-007F)</h4>
+							<p class="sups-noto">
+								%
+							</p>
+							<br>
+						<h4>Latin-1 Supplement (0080-00FF)</h4>
+							<p class="sups-noto">
+								¼ ½ ¾
+							</p>
+							<br>
+						<h4>General Punctuation (2000-206F)</h4>
+							<p class="sups-noto">
+								‰	‱
+							</p>
+							<br>
+						<h4>Letterlike Symbols (2100-214F)</h4>
+							<p class="sups-noto">
+								℀ ℁ ℅ ℆ ⅍
+							</p>
+							<br>
+						<h4>Number Forms (2150-218F)</h4>
+							<p class="sups-noto">
+								⅐ ⅑ ⅒ ⅓ ⅔ ⅕ ⅖ ⅗ ⅘ ⅙ ⅚ ⅛ ⅜ ⅝ ⅞ ⅟ ↉
+							</p>
+			</div>
+						
+				<div class="columna">
+					<h3 style="font-family: Ancizar Serif">Fracciones disponibles en Ancizar Serif</h3>
+						<h4>Basic Latin (0000-007F)</h4>
+							<p class="sups-ancizar-serif-unicode">
+								%
+							</p>
+							<br>
+						<h4>Latin-1 Supplement (0080-00FF)</h4>
+							<p class="sups-ancizar-serif-unicode">
+								¼ ½ ¾
+							</p>
+							<br>
+						<h4>General Punctuation (2000-206F)</h4>
+							<p class="sups-ancizar-serif-unicode">
+								‰	‱
+							</p>
+							<br>
+						<h4>Letterlike Symbols (2100-214F)</h4>
+							<p class="sups-ancizar-serif-unicode">
+								℀ ℁ ℅ ℆ ⅍
+							</p>
+							<br>
+						<h4>Number Forms (2150-218F)</h4>
+							<p class="sups-ancizar-serif-unicode">
+								⅐ ⅑ ⅒ ⅓ ⅔ ⅕ ⅖ ⅗ ⅘ ⅙ ⅚ ⅛ ⅜ ⅝ ⅞ ⅟ ↉
+							</p>
+				</div>
+					<div class="columna">
+						<h3 style="font-family: Ancizar Sans">Fracciones disponibles en Ancizar Sans</h3>
+						<h4>Basic Latin (0000-007F)</h4>
+							<p class="sups-ancizar-sans-unicode">
+								%
+							</p>
+							<br>
+						<h4>Latin-1 Supplement (0080-00FF)</h4>
+							<p class="sups-ancizar-sans-unicode">
+								¼ ½ ¾
+							</p>
+							<br>
+						<h4>General Punctuation (2000-206F)</h4>
+							<p class="sups-ancizar-sans-unicode">
+								‰	‱
+							</p>
+							<br>
+						<h4>Letterlike Symbols (2100-214F)</h4>
+							<p class="sups-ancizar-sans-unicode">
+								℀ ℁ ℅ ℆ ⅍
+							</p>
+							<br>
+						<h4>Number Forms (2150-218F)</h4>
+							<p class="sups-ancizar-sans-unicode">
+								⅐ ⅑ ⅒ ⅓ ⅔ ⅕ ⅖ ⅗ ⅘ ⅙ ⅚ ⅛ ⅜ ⅝ ⅞ ⅟ ↉
+							</p>
+					</div>
+				</div>	
+		<h1>OpenType</h1>
+		<p class="columna">En esta sección se expondrán todas las características OpenType relacionadas con las formas de números. Las fuentes más destacadas se pondrán como ejemplo en su respectiva característica.</p>
+		
+		<h2>Característica <span style="font-family: Consolas; font-weight: 700">sups</span></h2>
+		<div class="doscolumnas">
+			<div class="columna">
+					<h3 style="font-family: Calibri; background: #800">Calibri</h3>
+							<p class="sups-calibri">
+								◌a ◌b ◌c ◌d ◌e ◌f ◌g ◌h ◌i ◌j ◌k ◌l ◌m ◌n ◌o ◌p ◌q ◌r ◌s ◌t ◌u ◌v ◌w ◌x ◌y ◌z
+								<br>
+								◌A ◌B ◌C ◌D ◌E ◌F ◌G ◌H ◌I ◌J ◌K ◌L ◌M ◌N ◌O ◌P ◌Q ◌R ◌S ◌T ◌U ◌V ◌W ◌X ◌Y ◌Z
+								<br>
+								◌1 ◌2 ◌3 ◌4 ◌5 ◌6 ◌7 ◌8 ◌9 ◌0 ◌( ◌) ◌+ ◌− ◌=
+							</p>
+			</div>
+						
+				<div class="columna">
+					<h3 style="font-family: Ancizar Serif">Ancizar Serif</h3>
+							<p class="sups-ancizar-serif">
+								◌a ◌b ◌c ◌d ◌e ◌f ◌g ◌h ◌i ◌j ◌k ◌l ◌m ◌n ◌o ◌p ◌q ◌r ◌s ◌t ◌u ◌v ◌w ◌x ◌y ◌z
+								<br>
+								◌A ◌B ◌C ◌D ◌E ◌F ◌G ◌H ◌I ◌J ◌K ◌L ◌M ◌N ◌O ◌P ◌Q ◌R ◌S ◌T ◌U ◌V ◌W ◌X ◌Y ◌Z
+								<br>
+								◌1 ◌2 ◌3 ◌4 ◌5 ◌6 ◌7 ◌8 ◌9 ◌0 ◌( ◌) ◌+ ◌− ◌=
+							</p>
+				</div>
+					<div class="columna">
+					<h3 style="font-family: Ancizar Sans">Ancizar Sans</h3>
+							<p class="sups-ancizar-sans">
+								◌a ◌b ◌c ◌d ◌e ◌f ◌g ◌h ◌i ◌j ◌k ◌l ◌m ◌n ◌o ◌p ◌q ◌r ◌s ◌t ◌u ◌v ◌w ◌x ◌y ◌z
+								<br>
+								◌A ◌B ◌C ◌D ◌E ◌F ◌G ◌H ◌I ◌J ◌K ◌L ◌M ◌N ◌O ◌P ◌Q ◌R ◌S ◌T ◌U ◌V ◌W ◌X ◌Y ◌Z
+								<br>
+								◌1 ◌2 ◌3 ◌4 ◌5 ◌6 ◌7 ◌8 ◌9 ◌0 ◌( ◌) ◌+ ◌− ◌=
+							</p>
+					</div>
+				</div>
+		<div class="doscolumnas">
+			<div class="columna">
+					<h3 style="font-family: Warnock Pro; background: #800">Warnock Pro</h3>
+							<p class="sups-warnock-pro">
+								◌a ◌b ◌d ◌e ◌h ◌i ◌l ◌m ◌n ◌o ◌r ◌s ◌t
+								<br>
+								◌1 ◌2 ◌3 ◌4 ◌5 ◌6 ◌7 ◌8 ◌9 ◌0 ◌$ ◌¢ ◌( ◌) ◌, ◌. ◌-
+							</p>
+			</div>
+				<div class="columna">
+					<h3 style="font-family: Ancizar Serif">Ancizar Serif</h3>
+							<p class="sups-ancizar-serif">
+								◌a ◌b ◌d ◌e ◌h ◌i ◌l ◌m ◌n ◌o ◌r ◌s ◌t
+								<br>
+								◌1 ◌2 ◌3 ◌4 ◌5 ◌6 ◌7 ◌8 ◌9 ◌0 ◌$ ◌¢ ◌( ◌) ◌, ◌. ◌-
+							</p>							
+				</div>
+					<div class="columna">
+					<h3 style="font-family: Ancizar Sans">Ancizar Sans</h3>
+							<p class="sups-ancizar-sans">
+								◌a ◌b ◌d ◌e ◌h ◌i ◌l ◌m ◌n ◌o ◌r ◌s ◌t
+								<br>
+								◌1 ◌2 ◌3 ◌4 ◌5 ◌6 ◌7 ◌8 ◌9 ◌0 ◌$ ◌¢ ◌( ◌) ◌, ◌. ◌-
+							</p>
+					</div>
+				</div>
+		<div class="doscolumnas">
+			<div class="columna">
+					<h3 style="font-family: Noto Serif; background: #800">Noto Serif</h3>
+							<p class="sups-noto-serif">
+								◌n ◌ʕ
+								<br>
+								◌1 ◌2 ◌3 ◌4 ◌5 ◌6 ◌7 ◌8 ◌9 ◌0 ◌( ◌) ◌+ ◌=
+							</p>
+			</div>
+						
+				<div class="columna">
+					<h3 style="font-family: Ancizar Serif">Ancizar Serif</h3>
+							<p class="sups-ancizar-serif">
+								◌n ◌ʕ
+								<br>
+								◌1 ◌2 ◌3 ◌4 ◌5 ◌6 ◌7 ◌8 ◌9 ◌0 ◌( ◌) ◌+ ◌=
+							</p>							
+				</div>
+					<div class="columna">
+					<h3 style="font-family: Ancizar Sans">Ancizar Sans</h3>
+							<p class="sups-ancizar-sans">
+								◌n ◌ʕ
+								<br>
+								◌1 ◌2 ◌3 ◌4 ◌5 ◌6 ◌7 ◌8 ◌9 ◌0 ◌( ◌) ◌+ ◌=
+							</p>
+					</div>
+				</div>
+		<h2>Característica <span style="font-family: Consolas; font-weight: 700">subs</span></h2>
+		<div class="doscolumnas">
+			<div class="columna">
+					<h3 style="font-family: Noto Serif; background: #800">Noto Serif</h3>
+							<p class="subs-noto-serif">
+								◌a ◌e ◌h ◌k ◌l ◌m ◌n ◌o ◌p ◌s ◌t ◌x ◌ə
+								<br>
+								◌1 ◌2 ◌3 ◌4 ◌5 ◌6 ◌7 ◌8 ◌9 ◌0 ◌( ◌) ◌+ ◌=
+							</p>
+			</div>
+						
+				<div class="columna">
+					<h3 style="font-family: Ancizar Serif">Ancizar Serif</h3>
+							<p class="subs-ancizar-serif">
+								◌a ◌e ◌h ◌k ◌l ◌m ◌n ◌o ◌p ◌s ◌t ◌x ◌ə
+								<br>
+								◌1 ◌2 ◌3 ◌4 ◌5 ◌6 ◌7 ◌8 ◌9 ◌0 ◌( ◌) ◌+ ◌=
+							</p>						
+				</div>
+					<div class="columna">
+					<h3 style="font-family: Ancizar Sans">Ancizar Sans</h3>
+							<p class="subs-ancizar-sans">
+								◌a ◌e ◌h ◌k ◌l ◌m ◌n ◌o ◌p ◌s ◌t ◌x ◌ə
+								<br>
+								◌1 ◌2 ◌3 ◌4 ◌5 ◌6 ◌7 ◌8 ◌9 ◌0 ◌( ◌) ◌+ ◌=
+							</p>
+					</div>
+		</div>
+		<div class="doscolumnas">
+			<div class="columna">
+					<h3 style="font-family: Calibri; background: #800">Calibri</h3>
+							<p class="subs-calibri">
+								◌1 ◌2 ◌3 ◌4 ◌5 ◌6 ◌7 ◌8 ◌9 ◌0 ◌( ◌) ◌+ ◌− ◌=
+							</p>
+			</div>
+						
+				<div class="columna">
+					<h3 style="font-family: Ancizar Serif">Ancizar Serif</h3>
+							<p class="subs-ancizar-serif">
+								◌1 ◌2 ◌3 ◌4 ◌5 ◌6 ◌7 ◌8 ◌9 ◌0 ◌( ◌) ◌+ ◌− ◌=
+							</p>
+				</div>
+					<div class="columna">
+					<h3 style="font-family: Ancizar Sans">Ancizar Sans</h3>
+							<p class="subs-ancizar-sans">
+								◌1 ◌2 ◌3 ◌4 ◌5 ◌6 ◌7 ◌8 ◌9 ◌0 ◌( ◌) ◌+ ◌− ◌=
+							</p>
+					</div>
+		</div>
+		<div class="doscolumnas">
+			<div class="columna">
+					<h3 style="font-family: Warnock Pro; background: #800">Warnock Pro</h3>
+							<p class="subs-warnock-pro">
+								◌1 ◌2 ◌3 ◌4 ◌5 ◌6 ◌7 ◌8 ◌9 ◌0 ◌$ ◌¢ ◌( ◌) ◌, ◌. ◌-
+							</p>
+			</div>
+						
+				<div class="columna">
+					<h3 style="font-family: Ancizar Serif">Ancizar Serif</h3>
+							<p class="subs-ancizar-serif">
+								◌1 ◌2 ◌3 ◌4 ◌5 ◌6 ◌7 ◌8 ◌9 ◌0 ◌$ ◌¢ ◌( ◌) ◌, ◌. ◌-
+							</p>
+				</div>
+					<div class="columna">
+					<h3 style="font-family: Ancizar Sans">Ancizar Sans</h3>
+							<p class="subs-ancizar-sans">
+								◌1 ◌2 ◌3 ◌4 ◌5 ◌6 ◌7 ◌8 ◌9 ◌0 ◌$ ◌¢ ◌( ◌) ◌, ◌. ◌-
+							</p>
+					</div>
+		</div>
+		<h2>Característica <span style="font-family: Consolas; font-weight: 700">ordn</span></h2>
+		<div class="doscolumnas">
+			<div class="columna">
+					<h3 style="font-family: Hypatia Sans Pro; background: #800">Hypatia Sans Pro</h3>
+							<p class="ordn-hypatia">
+								◌a ◌b ◌c ◌d ◌e ◌f ◌g ◌h ◌i ◌j ◌k ◌l ◌m ◌n ◌o ◌p ◌q ◌r ◌s ◌t ◌u ◌v ◌w ◌x ◌y ◌z ◌è
+							</p>
+			</div>
+						
+				<div class="columna">
+					<h3 style="font-family: Ancizar Serif">Ancizar Serif</h3>
+							<p class="ordn-ancizar-serif">
+								◌a ◌b ◌c ◌d ◌e ◌f ◌g ◌h ◌i ◌j ◌k ◌l ◌m ◌n ◌o ◌p ◌q ◌r ◌s ◌t ◌u ◌v ◌w ◌x ◌y ◌z ◌è
+							</p>
+				</div>
+					<div class="columna">
+					<h3 style="font-family: Ancizar Sans">Ancizar Sans</h3>
+							<p class="ordn-ancizar-sans">
+								◌a ◌b ◌c ◌d ◌e ◌f ◌g ◌h ◌i ◌j ◌k ◌l ◌m ◌n ◌o ◌p ◌q ◌r ◌s ◌t ◌u ◌v ◌w ◌x ◌y ◌z ◌è
+							</p>
+					</div>
+		</div>
+		<h2>Característica <span style="font-family: Consolas; font-weight: 700">sinf</span></h2>
+		<div class="doscolumnas">
+			<div class="columna">
+					<h3 style="font-family: Hypatia Sans Pro; background: #800">Hypatia Sans Pro</h3>
+							<p class="sinf-hypatia">
+								◌1 ◌2 ◌3 ◌4 ◌5 ◌6 ◌7 ◌8 ◌9 ◌0 ◌$ ◌¢ ◌( ◌) ◌, ◌. ◌-
+							</p>
+			</div>
+						
+				<div class="columna">
+					<h3 style="font-family: Ancizar Serif">Ancizar Serif</h3>
+							<p class="sinf-ancizar-serif">
+								◌1 ◌2 ◌3 ◌4 ◌5 ◌6 ◌7 ◌8 ◌9 ◌0 ◌$ ◌¢ ◌( ◌) ◌, ◌. ◌-
+							</p>
+				</div>
+					<div class="columna">
+					<h3 style="font-family: Ancizar Sans">Ancizar Sans</h3>
+							<p class="sinf-ancizar-sans">
+								◌1 ◌2 ◌3 ◌4 ◌5 ◌6 ◌7 ◌8 ◌9 ◌0 ◌$ ◌¢ ◌( ◌) ◌, ◌. ◌-
+							</p>
+					</div>
+		</div>
+		<div class="doscolumnas">
+			<div class="columna">
+					<h3 style="font-family: Calibri; background: #800">Calibri</h3>
+							<p class="sinf-calibri">
+								◌1 ◌2 ◌3 ◌4 ◌5 ◌6 ◌7 ◌8 ◌9 ◌0 ◌( ◌) ◌+ ◌− ◌=
+							</p>
+			</div>
+						
+				<div class="columna">
+					<h3 style="font-family: Ancizar Serif">Ancizar Serif</h3>
+							<p class="sinf-ancizar-serif">
+								◌1 ◌2 ◌3 ◌4 ◌5 ◌6 ◌7 ◌8 ◌9 ◌0 ◌( ◌) ◌+ ◌− ◌=
+							</p>
+				</div>
+					<div class="columna">
+					<h3 style="font-family: Ancizar Sans">Ancizar Sans</h3>
+							<p class="sinf-ancizar-sans">
+								◌1 ◌2 ◌3 ◌4 ◌5 ◌6 ◌7 ◌8 ◌9 ◌0 ◌( ◌) ◌+ ◌− ◌=
+							</p>
+					</div>
+		</div>
+		<h2>Característica <span style="font-family: Consolas; font-weight: 700">numr</span></h2>
+		<div class="doscolumnas">
+			<div class="columna">
+					<h3 style="font-family: Coelacanth; background: #800">Coelacanth</h3>
+							<p class="numr-coelacanth">
+								1⁄ 2⁄ 3⁄ 4⁄ 5⁄ 6⁄ 7⁄ 8⁄ 9⁄ 0⁄
+							</p>
+					<h3 style="font-family: Calibri; background: #800">Calibri</h3>
+							<p class="numr-calibri">
+								1⁄ 2⁄ 3⁄ 4⁄ 5⁄ 6⁄ 7⁄ 8⁄ 9⁄ 0⁄
+							</p>
+			</div>
+						
+				<div class="columna">
+					<h3 style="font-family: Ancizar Serif">Ancizar Serif</h3>
+							<p class="numr-ancizar-serif">
+								1⁄ 2⁄ 3⁄ 4⁄ 5⁄ 6⁄ 7⁄ 8⁄ 9⁄ 0⁄
+							</p>
+			</div>	
+				
+					<div class="columna">
+					<h3 style="font-family: Ancizar Sans">Ancizar Sans</h3>
+							<p class="numr-ancizar-sans">
+								1⁄ 2⁄ 3⁄ 4⁄ 5⁄ 6⁄ 7⁄ 8⁄ 9⁄ 0⁄
+							</p>
+					</div>
+		</div>
+		<h2>Característica <span style="font-family: Consolas; font-weight: 700">dnom</span></h2>
+		<div class="doscolumnas">
+			<div class="columna">
+					<h3 style="font-family: Coelacanth; background: #800">Coelacanth</h3>
+							<p class="dnom-coelacanth">
+								⁄1 ⁄2 ⁄3 ⁄4 ⁄5 ⁄6 ⁄7 ⁄8 ⁄9 ⁄0
+							</p>
+							<br>
+					<h3 style="font-family: Calibri; background: #800">Calibri</h3>
+							<p class="dnom-calibri">
+								⁄1 ⁄2 ⁄3 ⁄4 ⁄5 ⁄6 ⁄7 ⁄8 ⁄9 ⁄0
+							</p>
+			</div>
+						
+				<div class="columna">
+					<h3 style="font-family: Ancizar Serif">Ancizar Serif</h3>
+							<p class="dnom-ancizar-serif">
+								⁄1 ⁄2 ⁄3 ⁄4 ⁄5 ⁄6 ⁄7 ⁄8 ⁄9 ⁄0
+							</p>
+			</div>	
+				
+					<div class="columna">
+					<h3 style="font-family: Ancizar Sans">Ancizar Sans</h3>
+							<p class="dnom-ancizar-sans">
+								⁄1 ⁄2 ⁄3 ⁄4 ⁄5 ⁄6 ⁄7 ⁄8 ⁄9 ⁄0
+							</p>
+					</div>
+		</div>
+		<h2>Característica <span style="font-family: Consolas; font-weight: 700">frac</span></h2>
+		<div class="doscolumnas">
+			<div class="columna">
+					<h3 style="font-family: Coelacanth; background: #800">Coelacanth</h3>
+							<p class="frac-coelacanth">
+								0/0 1/0 2/0 3/0 4/0 5/0 6/0 7/0 8/0 9/0
+								<br>
+								0/1 1/1 2/1 3/1 4/1 5/1 6/1 7/1 8/1 9/1
+								<br>
+								0/2 1/2 2/2 3/2 4/2 5/2 6/2 7/2 8/2 9/2
+								<br>
+								0/3 1/3 2/3 3/3 4/3 5/3 6/3 7/3 8/3 9/3
+								<br>
+								0/4 1/4 2/4 3/4 4/4 5/4 6/4 7/4 8/4 9/4
+								<br>
+								0/5 1/5 2/5 3/5 4/5 5/5 6/5 7/5 8/5 9/5
+								<br>
+								0/6 1/6 2/6 3/6 4/6 5/6 6/6 7/6 8/6 9/6
+								<br>
+								0/7 1/7 2/7 3/7 4/7 5/7 6/7 7/7 8/7 9/7
+								<br>
+								0/8 1/8 2/8 3/8 4/8 5/8 6/8 7/8 8/8 9/8
+								<br>
+								0/9 1/9 2/9 3/9 4/9 5/9 6/9 7/9 8/9 9/9
+							</p>
+							<br>
+					<h3 style="font-family: Calibri; background: #800">Calibri</h3>
+							<p class="frac-calibri">
+								0/0 1/0 2/0 3/0 4/0 5/0 6/0 7/0 8/0 9/0
+								<br>
+								0/1 1/1 2/1 3/1 4/1 5/1 6/1 7/1 8/1 9/1
+								<br>
+								0/2 1/2 2/2 3/2 4/2 5/2 6/2 7/2 8/2 9/2
+								<br>
+								0/3 1/3 2/3 3/3 4/3 5/3 6/3 7/3 8/3 9/3
+								<br>
+								0/4 1/4 2/4 3/4 4/4 5/4 6/4 7/4 8/4 9/4
+								<br>
+								0/5 1/5 2/5 3/5 4/5 5/5 6/5 7/5 8/5 9/5
+								<br>
+								0/6 1/6 2/6 3/6 4/6 5/6 6/6 7/6 8/6 9/6
+								<br>
+								0/7 1/7 2/7 3/7 4/7 5/7 6/7 7/7 8/7 9/7
+								<br>
+								0/8 1/8 2/8 3/8 4/8 5/8 6/8 7/8 8/8 9/8
+								<br>
+								0/9 1/9 2/9 3/9 4/9 5/9 6/9 7/9 8/9 9/9
+							</p>
+			</div>
+						
+				<div class="columna">
+					<h3 style="font-family: Ancizar Serif">Ancizar Serif</h3>
+							<p class="frac-ancizar-serif">
+								0/0 1/0 2/0 3/0 4/0 5/0 6/0 7/0 8/0 9/0
+								<br>
+								0/1 1/1 2/1 3/1 4/1 5/1 6/1 7/1 8/1 9/1
+								<br>
+								0/2 1/2 2/2 3/2 4/2 5/2 6/2 7/2 8/2 9/2
+								<br>
+								0/3 1/3 2/3 3/3 4/3 5/3 6/3 7/3 8/3 9/3
+								<br>
+								0/4 1/4 2/4 3/4 4/4 5/4 6/4 7/4 8/4 9/4
+								<br>
+								0/5 1/5 2/5 3/5 4/5 5/5 6/5 7/5 8/5 9/5
+								<br>
+								0/6 1/6 2/6 3/6 4/6 5/6 6/6 7/6 8/6 9/6
+								<br>
+								0/7 1/7 2/7 3/7 4/7 5/7 6/7 7/7 8/7 9/7
+								<br>
+								0/8 1/8 2/8 3/8 4/8 5/8 6/8 7/8 8/8 9/8
+								<br>
+								0/9 1/9 2/9 3/9 4/9 5/9 6/9 7/9 8/9 9/9
+							</p>
+				</div>
+					<div class="columna">
+					<h3 style="font-family: Ancizar Sans">Ancizar Sans</h3>
+							<p class="frac-ancizar-sans">
+								0/0 1/0 2/0 3/0 4/0 5/0 6/0 7/0 8/0 9/0
+								<br>
+								0/1 1/1 2/1 3/1 4/1 5/1 6/1 7/1 8/1 9/1
+								<br>
+								0/2 1/2 2/2 3/2 4/2 5/2 6/2 7/2 8/2 9/2
+								<br>
+								0/3 1/3 2/3 3/3 4/3 5/3 6/3 7/3 8/3 9/3
+								<br>
+								0/4 1/4 2/4 3/4 4/4 5/4 6/4 7/4 8/4 9/4
+								<br>
+								0/5 1/5 2/5 3/5 4/5 5/5 6/5 7/5 8/5 9/5
+								<br>
+								0/6 1/6 2/6 3/6 4/6 5/6 6/6 7/6 8/6 9/6
+								<br>
+								0/7 1/7 2/7 3/7 4/7 5/7 6/7 7/7 8/7 9/7
+								<br>
+								0/8 1/8 2/8 3/8 4/8 5/8 6/8 7/8 8/8 9/8
+								<br>
+								0/9 1/9 2/9 3/9 4/9 5/9 6/9 7/9 8/9 9/9
+							</p>
+					</div>
+		</div>
+		<h2>Característica <span style="font-family: Consolas; font-weight: 700">afrc</span></h2>
+		<div class="doscolumnas">
+			<div class="columna">
+					<h3 style="font-family: Coelacanth; background: #800">Coelacanth</h3>
+							<p class="afrc-coelacanth">
+								1/2
+								<br>
+								0/3 1/3 2/3
+								<br>
+								1/4 3/4
+								<br>
+								1/5 2/5 3/5 4/5
+								<br>
+								1/6 5/6
+								<br>
+								1/7
+								<br>
+								1/8 3/8 5/8 7/8
+								<br>
+								1/9
+								<br>
+								1/10
+							</p>
+			</div>
+						
+				<div class="columna">
+					<h3 style="font-family: Ancizar Serif">Ancizar Serif</h3>
+							<p class="afrc-ancizar-serif">
+								1/2
+								<br>
+								0/3 1/3 2/3
+								<br>
+								1/4 3/4
+								<br>
+								1/5 2/5 3/5 4/5
+								<br>
+								1/6 5/6
+								<br>
+								1/7
+								<br>
+								1/8 3/8 5/8 7/8
+								<br>
+								1/9
+								<br>
+								1/10
+							</p>
+				</div>
+					<div class="columna">
+					<h3 style="font-family: Ancizar Sans">Ancizar Sans</h3>
+							<p class="afrc-ancizar-sans">
+								1/2
+								<br>
+								0/3 1/3 2/3
+								<br>
+								1/4 3/4
+								<br>
+								1/5 2/5 3/5 4/5
+								<br>
+								1/6 5/6
+								<br>
+								1/7
+								<br>
+								1/8 3/8 5/8 7/8
+								<br>
+								1/9
+								<br>
+								1/10
+							</p>
+					</div>
+		</div>
+	</div>
+	
+	<br>
+<footer class="footer-container">
+  <div class="copyright">
+  Copyright © 2023 Universidad Nacional de Colombia.
+  <br>
+  Proyecto <span style="font-weight: 900">Ancízar 8.0.</div>
+  <div class="contact-info">Desarrollado por Raúl Aponte.
+  <br>
+  Contacto: <span class="mono">raaapontesu@unal.edu.co</span></div>
+  <img src="./Identidad/unimedios.jpg" alt="Unidad de Medios de Comunicación" class="logo">
+</footer>
+</body>
+</html>

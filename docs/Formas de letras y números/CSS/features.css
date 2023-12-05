@@ -1,0 +1,272 @@
+/* ====== Unicode ====== */
+
+.sups-gentium {
+	font-family: "Gentium Plus", "Adobe NotDef";
+	font-size: 36px;
+	}
+	
+.sups-noto {
+	font-family: "Noto Serif", "Adobe NotDef";
+	font-size: 36px;
+	}
+	
+.sups-ancizar-serif-unicode {
+	font-family: "Ancizar Serif", "Adobe NotDef";
+	font-size: 36px;
+	}
+	
+.sups-ancizar-sans-unicode {
+	font-family: "Ancizar Sans", "Adobe NotDef";
+	font-size: 36px;
+	}
+
+/* ====== OpenType ===== */
+
+/* ===== sups ===== */
+
+.sups-calibri {
+    font-family: "Calibri", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 36px;
+	font-feature-settings: "sups" on;
+}
+
+.sups-warnock-pro {
+    font-family: "Warnock Pro", "Noto Serif";
+    font-weight: 400;
+	font-size: 36px;
+	font-feature-settings: "sups" on;
+}
+
+.sups-noto-serif {
+    font-family: "Noto Serif", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 36px;
+	font-feature-settings: "sups" on;
+}
+
+.sups-ancizar-serif {
+    font-family: "Ancizar Serif", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 36px;
+	font-feature-settings: "sups" on;
+}
+
+.sups-ancizar-sans {
+    font-family: "Ancizar Sans", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 36px;
+	font-feature-settings: "sups" on;
+}
+
+/* ===== subs ===== */
+
+.subs-noto-serif {
+    font-family: "Noto Serif", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 36px;
+	font-feature-settings: "subs" on;
+}
+
+.subs-calibri {
+    font-family: "Calibri", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 36px;
+	font-feature-settings: "subs" on;
+}
+
+.subs-warnock-pro {
+    font-family: "Warnock Pro", "Noto Serif";
+    font-weight: 400;
+	font-size: 36px;
+	font-feature-settings: "subs" on;
+}
+
+.subs-hypatia-sans-pro {
+    font-family: "Hypatia Sans Pro", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 36px;
+	font-feature-settings: "subs" on;
+}
+
+.subs-ancizar-serif {
+    font-family: "Ancizar Serif", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 36px;
+	font-feature-settings: "subs" on;
+}
+
+.subs-ancizar-sans {
+    font-family: "Ancizar Sans", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 36px;
+	font-feature-settings: "subs" on;
+}
+
+/* ===== ordn ===== */
+
+.ordn-hypatia {
+    font-family: "Hypatia Sans Pro", "Noto Serif";
+    font-weight: 400;
+	font-size: 36px;
+	font-feature-settings: "ordn" on;
+}
+
+.ordn-ancizar-serif {
+    font-family: "Ancizar Serif", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 36px;
+	font-feature-settings: "ordn" on;
+}
+
+.ordn-ancizar-sans {
+    font-family: "Ancizar Sans", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 36px;
+	font-feature-settings: "ordn" on;
+}
+
+/* ===== sinf ===== */
+
+.sinf-hypatia {
+    font-family: "Hypatia Sans Pro", "Noto Serif";
+    font-weight: 400;
+	font-size: 36px;
+	font-feature-settings: "sinf" on;
+}
+
+.sinf-calibri {
+    font-family: "Calibri", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 36px;
+	font-feature-settings: "subs" on;
+}
+
+.sinf-ancizar-serif {
+    font-family: "Ancizar Serif", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 36px;
+	font-feature-settings: "sinf" on;
+}
+
+.sinf-ancizar-sans {
+    font-family: "Ancizar Sans", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 36px;
+	font-feature-settings: "sinf" on;
+}
+
+
+/* ===== numr ===== */
+
+.numr-coelacanth {
+    font-family: "Coelacanth", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 36px;
+	font-feature-settings: "numr" on;
+}
+
+.numr-calibri {
+    font-family: "Calibri", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 36px;
+	font-feature-settings: "numr" on;
+}
+
+.numr-ancizar-serif {
+    font-family: "Ancizar Serif", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 36px;
+	font-feature-settings: "numr" on;
+}
+
+.numr-ancizar-sans {
+    font-family: "Ancizar Sans", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 36px;
+	font-feature-settings: "numr" on;
+}
+
+/* ===== dnom ===== */
+
+.dnom-coelacanth {
+    font-family: "Coelacanth", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 36px;
+	font-feature-settings: "dnom" on;
+}
+
+.dnom-calibri {
+    font-family: "Calibri", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 36px;
+	font-feature-settings: "dnom" on;
+}
+
+.dnom-ancizar-serif {
+    font-family: "Ancizar Serif", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 36px;
+	font-feature-settings: "dnom" on;
+}
+
+.dnom-ancizar-sans {
+    font-family: "Ancizar Sans", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 36px;
+	font-feature-settings: "dnom" on;
+}
+
+
+/* ===== frac ===== */
+
+.frac-coelacanth {
+    font-family: "Coelacanth", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 36px;
+	font-feature-settings: "frac" on;
+}
+
+.frac-calibri {
+    font-family: "Calibri", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 36px;
+	font-feature-settings: "frac" on;
+}
+
+.frac-ancizar-serif {
+    font-family: "Ancizar Serif", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 36px;
+	font-feature-settings: "frac" on;
+}
+
+.frac-ancizar-sans {
+    font-family: "Ancizar Sans", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 36px;
+	font-feature-settings: "frac" on;
+}
+
+/* ===== afrc ===== */
+
+.afrc-coelacanth {
+    font-family: "Coelacanth", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 36px;
+	font-feature-settings: "frac" on, "afrc" on;
+}
+
+.afrc-ancizar-serif {
+    font-family: "Ancizar Serif", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 36px;
+	font-feature-settings: "frac" on, "afrc" on;
+}
+
+.afrc-ancizar-sans {
+    font-family: "Ancizar Sans", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 36px;
+	font-feature-settings: "frac" on, "afrc" on;
+}

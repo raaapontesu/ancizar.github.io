@@ -1,0 +1,29 @@
+#deslizador {
+            text-align: center;
+            font-size: 24px;
+            margin-top: 10px;
+        }
+		
+#deslizador-alphabet {
+            text-align: left;
+            font-size: 24px;
+            margin-top: 10px;
+        }
+		
+#deslizador-space {
+            text-align: left;
+            font-size: 24px;
+            margin-top: 10px;
+        }
+		
+#deslizador-kerning {
+            text-align: left;
+            font-size: 24px;
+            margin-top: 10px;
+        }
+
+#deslizador-context {
+            text-align: left;
+            font-size: 24px;
+            margin-top: 10px;
+        }

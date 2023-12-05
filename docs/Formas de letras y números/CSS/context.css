@@ -1,0 +1,77 @@
+.context-noto {
+    font-family: "Noto Serif", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 16px
+}
+
+.context-noto-sans {
+    font-family: "Noto Sans", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 16px
+}
+
+.context-ancizar {
+    font-family: "Ancizar Serif", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 16px
+}
+
+.context-ancizar-sans {
+    font-family: "Ancizar Sans", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 16px
+}
+
+.context-gentium {
+    font-family: "Gentium Plus", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 16px
+}
+
+.context-andika {
+    font-family: "Andika", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 16px
+}
+
+.underline-noto {
+    font-family: "Noto Serif", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 16px;
+	text-decoration: underline;
+}
+
+.underline-noto-sans {
+    font-family: "Noto Sans", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 16px;
+	text-decoration: underline;
+}
+
+.underline-ancizar {
+    font-family: "Ancizar Serif", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 16px;
+	text-decoration: underline;
+}
+
+.underline-ancizar-sans {
+    font-family: "Ancizar Sans", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 16px;
+	text-decoration: underline;
+}
+
+.underline-gentium {
+    font-family: "Gentium Plus", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 16px;
+	text-decoration: underline;
+}
+
+.underline-andika {
+    font-family: "Andika", "Adobe NotDef";
+    font-weight: 400;
+	font-size: 16px;
+	text-decoration: underline;
+}
