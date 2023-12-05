@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Comparador de Ancizar en itálicas - Unicode: Basic Latin (0000-007F)</title>
+    <link href="CSS/fontface.css" rel="stylesheet">
+	<link href="CSS/contours.css" rel="stylesheet">
+	<link href="CSS/alphabet.css" rel="stylesheet">
+	<link href="CSS/spacing.css" rel="stylesheet">
+	<link href="CSS/kerning.css" rel="stylesheet">
+	<link href="CSS/context.css" rel="stylesheet">
+	<link href="CSS/numbers.css" rel="stylesheet">
+	<link href="CSS/svg.css" rel="stylesheet">
+	<link href="CSS/table_comparador.css" rel="stylesheet">
+	<link href="CSS/body_serif_italic.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="page">
+		<h1>
+			Ancízar 8.0
+			<br>
+			Pangrama comparativo de glifos para Ancizar Serif
+			<br>
+			Unicode: Basic Latin (0000-007F)
+		</h1>
+			<p class="columna">
+			En esta página se comparan los contornos de las familias serif y sans en itálicas desde el enfoque del estándar Unicode.
+			</p>
+	<br>
+				<label for="unicode">Seleccione el peso de la fuente:</label>
+					<br>
+						<input type="range" style="width: 250px" id="font-weight-slider" min="100" max="1000" step="100" value="400">
+						<div id="font-weight-label">400</div>	
+			<!-- Input to move Calibri horizontally -->
+    <input type="range" style="width: 1000px" id="ancizar-sans-move-x" min="-400" max="500" step="1" value="0">
+	<div>Mover Ancizar Sans: <span id="ancizar-sans-move-x-label">0</span> pixeles</div>
+    <button id="resetButton">Restablecer</button>
+	<div class="doscolumnas">
+		<div class="columna">
+		<h2>Tabla de caracteres Unicode</h2>
+			<div class="unicode-table">
+				<div class="table100 ver1">
+					
+						<br>
+						<table id="character-table"> <!--data-vertable="ver1">-->
+							<thead>
+								<tr class="row100 head">
+									<th class="column100 column1 hov-column-head-ver1"></th>
+									<th class="column100 column1">000</th>
+									<th class="column100 column1">001</th>
+									<th class="column100 column1">002</th>
+									<th class="column100 column1">003</th>
+									<th class="column100 column1">004</th>
+									<th class="column100 column1">005</th>
+									<th class="column100 column1">006</th>
+									<th class="column100 column1">007</th>
+								</tr>
+							</thead>
+							
+							<tbody>
+								<tr class="row100">
+									<td class="column100 column1 hov-column-ver1">0</td>
+									<td><span style="font-family: Consolas; font-size: 12px">NUL</span></td>
+									<td><span style="font-family: Consolas; font-size: 12px">DLE</span></td>
+									<td><span style="font-family: Consolas; font-size: 12px">SP</span></td>
+									<td><span class="font-weight"><a href="#0" onclick="generateSVG('0')">0</a></span></td>
+									<td><span class="font-weight"><a href="#@" onclick="generateSVG('@')">@</a></span></td>
+									<td><span class="font-weight"><a href="#P" onclick="generateSVG('P')">P</a></span></td>
+									<td><span class="font-weight"><a href="#`" onclick="generateSVG('`')">`</a></span></td>
+									<td><span class="font-weight"><a href="#p" onclick="generateSVG('p')">p</a></span></td>
+								</tr>
+								<tr class="row100">
+									<td class="column100 column1 hov-column-ver1">1</td>
+									<td><span style="font-family: Consolas; font-size: 12px">SOH</span></td>
+									<td><span style="font-family: Consolas; font-size: 12px">DC1</span></td>
+									<td><span class="font-weight"><a href="#!" onclick="generateSVG('!')">!</a></span></td>
+									<td><span class="font-weight"><a href="#1" onclick="generateSVG('1')">1</a></span></td>
+									<td><span class="font-weight"><a href="#A" onclick="generateSVG('A')">A</a></span></td>
+									<td><span class="font-weight"><a href="#Q" onclick="generateSVG('Q')">Q</a></span></td>
+									<td><span class="font-weight"><a href="#a" onclick="generateSVG('a')">a</a></span></td>
+									<td><span class="font-weight"><a href="#q" onclick="generateSVG('q')">q</a></span></td>
+								</tr>
+								<tr class="row100">
+									<td class="column100 column1 hov-column-ver1">2</td>
+									<td><span style="font-family: Consolas; font-size: 12px">STX</span></td>
+									<td><span style="font-family: Consolas; font-size: 12px">DC2</span></td>
+									<td><span class="font-weight"><a href="#quot" onclick="generateSVG('\u0022')">"</a></span></td>
+									<td><span class="font-weight"><a href="#2" onclick="generateSVG('2')">2</a></span></td>
+									<td><span class="font-weight"><a href="#B" onclick="generateSVG('B')">B</a></span></td>
+									<td><span class="font-weight"><a href="#R" onclick="generateSVG('R')">R</a></span></td>
+									<td><span class="font-weight"><a href="#b" onclick="generateSVG('b')">b</a></span></td>
+									<td><span class="font-weight"><a href="#r" onclick="generateSVG('r')">r</a></span></td>
+								</tr>
+								<tr class="row100">
+									<td class="column100 column1 hov-column-ver1">3</td>
+									<td><span style="font-family: Consolas; font-size: 12px">ETX</span></td>
+									<td><span style="font-family: Consolas; font-size: 12px">DC3</span></td>
+									<td><span class="font-weight"><a href="##" onclick="generateSVG('#')">#</a></span></td>
+									<td><span class="font-weight"><a href="#3" onclick="generateSVG('3')">3</a></span></td>
+									<td><span class="font-weight"><a href="#C" onclick="generateSVG('C')">C</a></span></td>
+									<td><span class="font-weight"><a href="#S" onclick="generateSVG('S')">S</a></span></td>
+									<td><span class="font-weight"><a href="#c" onclick="generateSVG('c')">c</a></span></td>
+									<td><span class="font-weight"><a href="#s" onclick="generateSVG('s')">s</a></span></td>
+								</tr>
+								<tr class="row100">
+									<td class="column100 column1 hov-column-ver1">4</td>
+									<td><span style="font-family: Consolas; font-size: 12px">EOT</span></td>
+									<td><span style="font-family: Consolas; font-size: 12px">DC4</span></td>
+									<td><span class="font-weight"><a href="#$" onclick="generateSVG('$')"><a href="#$" onclick="generateSVG('$')">$</a></a></span></td>
+									<td><span class="font-weight"><a href="#4" onclick="generateSVG('4')">4</a></span></td>
+									<td><span class="font-weight"><a href="#D" onclick="generateSVG('D')">D</a></span></td>
+									<td><span class="font-weight"><a href="#T" onclick="generateSVG('T')">T</a></span></td>
+									<td><span class="font-weight"><a href="#d" onclick="generateSVG('d')">d</a></span></td>
+									<td><span class="font-weight"><a href="#t" onclick="generateSVG('t')">t</a></span></td>
+								</tr>
+								<tr class="row100">
+									<td class="column100 column1 hov-column-ver1">5</td>
+									<td><span style="font-family: Consolas; font-size: 12px">ENQ</span></td>
+									<td><span style="font-family: Consolas; font-size: 12px">NAK</span></td>
+									<td><span class="font-weight"><a href="#%" onclick="generateSVG('%')">%</a></span></td>
+									<td><span class="font-weight"><a href="#5" onclick="generateSVG('5')">5</a></span></td>
+									<td><span class="font-weight"><a href="#E" onclick="generateSVG('E')">E</a></span></td>
+									<td><span class="font-weight"><a href="#U" onclick="generateSVG('U')">U</a></span></td>
+									<td><span class="font-weight"><a href="#e" onclick="generateSVG('e')">e</a></span></td>
+									<td><span class="font-weight"><a href="#u" onclick="generateSVG('u')">u</a></span></td>
+								</tr>
+								<tr class="row100">
+									<td class="column100 column1 hov-column-ver1">6</td>
+									<td><span style="font-family: Consolas; font-size: 12px">ACK</span></td>
+									<td><span style="font-family: Consolas; font-size: 12px">SYN</span></td>
+									<td><span class="font-weight"><a href="#&" onclick="generateSVG('&')">&</a></span></td>
+									<td><span class="font-weight"><a href="#6" onclick="generateSVG('6')">6</a></span></td>
+									<td><span class="font-weight"><a href="#F" onclick="generateSVG('F')">F</a></span></td>
+									<td><span class="font-weight"><a href="#V" onclick="generateSVG('V')">V</a></span></td>
+									<td><span class="font-weight"><a href="#f" onclick="generateSVG('f')">f</a></span></td>
+									<td><span class="font-weight"><a href="#v" onclick="generateSVG('v')">v</a></span></td>
+								</tr>
+								<tr class="row100">
+									<td class="column100 column1 hov-column-ver1">7</td>
+									<td><span style="font-family: Consolas; font-size: 12px">BEL</span></td>
+									<td><span style="font-family: Consolas; font-size: 12px">ETB</span></td>
+									<td><span class="font-weight"><a href="#apos" onclick="generateSVG('\u0027')">'</a></span></td>
+									<td><span class="font-weight"><a href="#7" onclick="generateSVG('7')">7</a></span></td>
+									<td><span class="font-weight"><a href="#G" onclick="generateSVG('G')">G</a></span></td>
+									<td><span class="font-weight"><a href="#W" onclick="generateSVG('W')">W</a></span></td>
+									<td><span class="font-weight"><a href="#g" onclick="generateSVG('g')">g</a></span></td>
+									<td><span class="font-weight"><a href="#w" onclick="generateSVG('w')">w</a></span></td>
+								</tr>
+								<tr class="row100">
+									<td class="column100 column1 hov-column-ver1">8</td>
+									<td><span style="font-family: Consolas; font-size: 12px">BS</span></td>
+									<td><span style="font-family: Consolas; font-size: 12px">CAN</span></td>
+									<td><span class="font-weight"><a href="#(" onclick="generateSVG('(')">(</a></span></td>
+									<td><span class="font-weight"><a href="#8" onclick="generateSVG('8')">8</a></span></td>
+									<td><span class="font-weight"><a href="#H" onclick="generateSVG('H')">H</a></span></td>
+									<td><span class="font-weight"><a href="#X" onclick="generateSVG('X')">X</a></span></td>
+									<td><span class="font-weight"><a href="#h" onclick="generateSVG('h')">h</a></span></td>
+									<td><span class="font-weight"><a href="#x" onclick="generateSVG('x')">x</a></span></td>
+								</tr>
+								<tr class="row100">
+									<td class="column100 column1 hov-column-ver1">9</td>
+									<td><span style="font-family: Consolas; font-size: 12px">HT</span></td>
+									<td><span style="font-family: Consolas; font-size: 12px">EM</span></td>
+									<td><span class="font-weight"><a href="#)" onclick="generateSVG(')')">)</a></span></td>
+									<td><span class="font-weight"><a href="#9" onclick="generateSVG('9')">9</a></span></td>
+									<td><span class="font-weight"><a href="#I" onclick="generateSVG('I')">I</a></span></td>
+									<td><span class="font-weight"><a href="#Y" onclick="generateSVG('Y')">Y</a></span></td>
+									<td><span class="font-weight"><a href="#i" onclick="generateSVG('i')">i</a></span></td>
+									<td><span class="font-weight"><a href="#y" onclick="generateSVG('y')">y</a></span></td>
+								</tr>
+								<tr class="row100">
+									<td class="column100 column1 hov-column-ver1">A</td>
+									<td><span style="font-family: Consolas; font-size: 12px">LF</span></td>
+									<td><span style="font-family: Consolas; font-size: 12px">SUB</span></td>
+									<td><span class="font-weight"><a href="#*" onclick="generateSVG('*')">*</a></span></td>
+									<td><span class="font-weight"><a href="#:" onclick="generateSVG(':')">:</a></span></td>
+									<td><span class="font-weight"><a href="#J" onclick="generateSVG('J')">J</a></span></td>
+									<td><span class="font-weight"><a href="#Z" onclick="generateSVG('Z')">Z</a></span></td>
+									<td><span class="font-weight"><a href="#j" onclick="generateSVG('j')">j</a></span></td>
+									<td><span class="font-weight"><a href="#z" onclick="generateSVG('z')">z</a></span></td>
+								</tr>
+								<tr class="row100">
+									<td class="column100 column1 hov-column-ver1">B</td>
+									<td><span style="font-family: Consolas; font-size: 12px">VT</span></td>
+									<td><span style="font-family: Consolas; font-size: 12px">ESC</span></td>
+									<td><span class="font-weight"><a href="#+" onclick="generateSVG('+')">+</a></span></td>
+									<td><span class="font-weight"><a href="#;" onclick="generateSVG(';')">;</a></span></td>
+									<td><span class="font-weight"><a href="#K" onclick="generateSVG('K')">K</a></span></td>
+									<td><span class="font-weight"><a href="#[" onclick="generateSVG('[')">[</a></span></td>
+									<td><span class="font-weight"><a href="#k" onclick="generateSVG('k')">k</a></span></td>
+									<td><span class="font-weight"><a href="#{" onclick="generateSVG('{')">{</a></span></td>
+								</tr>
+								<tr class="row100">
+									<td class="column100 column1 hov-column-ver1">C</td>
+									<td><span style="font-family: Consolas; font-size: 12px">FF</span></td>
+									<td><span style="font-family: Consolas; font-size: 12px">FS</span></td>
+									<td><span class="font-weight"><a href="#," onclick="generateSVG(',')">,</a></span></td>
+									<td><span class="font-weight"><a href="#<" onclick="generateSVG('<')"><</a></span></td>
+									<td><span class="font-weight"><a href="#L" onclick="generateSVG('L')">L</a></span></td>
+									<td><span class="font-weight"><a href="#\" onclick="generateSVG('\u005C')">\</a></span></td>
+									<td><span class="font-weight"><a href="#l" onclick="generateSVG('l')">l</a></span></td>
+									<td><span class="font-weight"><a href="#|" onclick="generateSVG('|')">|</a></span></td>
+								</tr>
+								<tr class="row100">
+									<td class="column100 column1 hov-column-ver1">D</td>
+									<td><span style="font-family: Consolas; font-size: 12px">CR</span></td>
+									<td><span style="font-family: Consolas; font-size: 12px">GS</span></td>
+									<td><span class="font-weight"><a href="#-" onclick="generateSVG('-')">-</a></span></td>
+									<td><span class="font-weight"><a href="#=" onclick="generateSVG('=')">=</a></span></td>
+									<td><span class="font-weight"><a href="#M" onclick="generateSVG('M')">M</a></span></td>
+									<td><span class="font-weight"><a href="#]" onclick="generateSVG(']')">]</a></span></td>
+									<td><span class="font-weight"><a href="#m" onclick="generateSVG('m')">m</a></span></td>
+									<td><span class="font-weight"><a href="#}" onclick="generateSVG('}')">}</a></span></td>
+								</tr>
+								<tr class="row100">
+									<td class="column100 column1 hov-column-ver1">E</td>
+									<td><span style="font-family: Consolas; font-size: 12px">SO</span></td>
+									<td><span style="font-family: Consolas; font-size: 12px">RS</span></td>
+									<td><span class="font-weight"><a href="#." onclick="generateSVG('.')">.</a></span></td>
+									<td><span class="font-weight"><a href="#>" onclick="generateSVG('>')">></a></span></td>
+									<td><span class="font-weight"><a href="#N" onclick="generateSVG('N')">N</a></span></td>
+									<td><span class="font-weight"><a href="#^" onclick="generateSVG('^')">^</a></span></td>
+									<td><span class="font-weight"><a href="#n" onclick="generateSVG('n')">n</a></span></td>
+									<td><span class="font-weight"><a href="#~" onclick="generateSVG('~')">~</a></span></td>
+								</tr>
+								<tr class="row100">
+									<td class="column100 column1 hov-column-ver1">F</td>
+									<td><span style="font-family: Consolas; font-size: 12px">SI</span></td>
+									<td><span style="font-family: Consolas; font-size: 12px">US</span></td>
+									<td><span class="font-weight"><a href="#/" onclick="generateSVG('/')">/</a></span></td>
+									<td><span class="font-weight"><a href="#?" onclick="generateSVG('?')">?</a></span></td>
+									<td><span class="font-weight"><a href="#O" onclick="generateSVG('O')">O</a></span></td>
+									<td><span class="font-weight"><a href="#_" onclick="generateSVG('_')">_</a></span></td>
+									<td><span class="font-weight"><a href="#o" onclick="generateSVG('o')">o</a></span></td>
+									<td><span style="font-family: Consolas; font-size: 12px">DEL</span></td>
+								</tr>
+							</tbody>
+						</table>
+				</div>
+			</div>
+		</div>
+		<div class="columna">
+				<h2>Comparador de contornos</h2>
+				<div class="font-container">
+				<div id="svg-container">
+	<svg id="my-svg" width="100%" height="700">
+	<text x="50%" y="350" text-anchor="middle" class="comparador">
+					Haga clic en un glifo para iniciar.
+	</text>
+	</svg>
+	</div>
+
+				</div>
+					
+			</div>
+		</div>
+		<script>
+        let currentCharacter = ''; // Store the current character
+
+        // Function to generate SVG with the specified character, font weight, and offsets
+        function generateSVG(character) {
+            currentCharacter = character; // Update the current character
+
+            // Get the current font weight from the slider
+            const fontWeight = document.getElementById('font-weight-slider').value;
+			
+			const ancizarSansMoveX = parseInt(document.getElementById('ancizar-sans-move-x').value);
+			const resetButton = document.getElementById("resetButton");
+			
+            // Create an SVG element
+            const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+            svg.setAttribute("width", "100%");
+            svg.setAttribute("height", "820");
+
+            // Create a <text> element within the SVG for Arial
+            const textAncizarSerif = document.createElementNS("http://www.w3.org/2000/svg", "text");
+            textAncizarSerif.setAttribute("x", "80");
+            textAncizarSerif.setAttribute("y", "625");
+            textAncizarSerif.setAttribute("font-size", "750");
+            textAncizarSerif.setAttribute("stroke", "#f00");
+			textAncizarSerif.setAttribute("stroke-width", "1.1");
+			textAncizarSerif.setAttribute("fill", "none");
+			textAncizarSerif.setAttribute("font-family", "Ancizar Serif, Adobe NotDef");
+            textAncizarSerif.setAttribute("font-weight", fontWeight); // Set the font weight
+            textAncizarSerif.textContent = character;
+
+            // Create a <text> element within the SVG for Calibri
+            const textAncizarSans = document.createElementNS("http://www.w3.org/2000/svg", "text");
+            textAncizarSans.setAttribute("x", "80");
+            textAncizarSans.setAttribute("y", "625");
+            textAncizarSans.setAttribute("font-size", "750");
+            textAncizarSans.setAttribute("stroke", "#00f");
+			textAncizarSans.setAttribute("stroke-width", "1.1");
+			textAncizarSans.setAttribute("fill", "none");
+            textAncizarSans.setAttribute("font-family", "Ancizar Sans, Adobe NotDef");
+            textAncizarSans.setAttribute("font-weight", fontWeight); // Set the font weight
+			textAncizarSans.setAttribute("dx", ancizarSansMoveX); // Set horizontal offset
+            textAncizarSans.textContent = character;
+
+ // Create lines to represent the axes
+        const axesGroup = document.createElementNS("http://www.w3.org/2000/svg", "g");
+
+        function createAxis(x1, y1, x2, y2) {
+            const axis = document.createElementNS("http://www.w3.org/2000/svg", "line");
+            axis.setAttribute("x1", x1);
+            axis.setAttribute("y1", y1);
+            axis.setAttribute("x2", x2);
+            axis.setAttribute("y2", y2);
+            axis.setAttribute("stroke", "#0a0");
+            axis.setAttribute("stroke-width", "1");
+            return axis;
+        }
+
+		// Create a <text> element for "yMin"
+			const textYMin = document.createElementNS("http://www.w3.org/2000/svg", "text");
+			textYMin.setAttribute("x", "350"); // Adjust the x position as needed
+			textYMin.setAttribute("y", "655"); // Adjust the y position as needed
+			textYMin.setAttribute("text-anchor", "middle"); // Center the text horizontally
+			textYMin.setAttribute("font-family", "Ancizar Sans");
+			textYMin.setAttribute("font-size", "24px");
+			textYMin.setAttribute("fill", "#0a0");
+			textYMin.textContent = "yMin";
+
+			// Create a <text> element for "yMin" and rotate it
+			const textXMin = document.createElementNS("http://www.w3.org/2000/svg", "text");
+			textXMin.setAttribute("x", "100"); // Adjust the x position as needed
+			textXMin.setAttribute("y", "405"); // Adjust the y position as needed
+			textXMin.setAttribute("text-anchor", "middle"); // Center the text horizontally
+			textXMin.setAttribute("dominant-baseline", "middle"); // Center the text vertically
+			textXMin.setAttribute("font-family", "Ancizar Sans");
+			textXMin.setAttribute("font-size", "24px");
+			textXMin.setAttribute("fill", "#0a0");
+			textXMin.setAttribute("transform", "rotate(-90 50 400)"); // Rotate by -90 degrees around (50, 400)
+			textXMin.textContent = "xMin";
+
+        axesGroup.appendChild(createAxis(50, 625, 800, 625)); // Baseline
+		axesGroup.appendChild(createAxis(80, 655, 80, 100)); // Uppercase Axis
+
+            // Append <text> elements to the SVG
+            svg.appendChild(textAncizarSerif);
+            svg.appendChild(textAncizarSans);
+			svg.appendChild(textXMin);
+			svg.appendChild(textYMin);
+			svg.appendChild(axesGroup);
+
+            // Clear the previous SVG content
+            const svgContainer = document.getElementById("svg-container");
+            svgContainer.innerHTML = "";
+
+            // Append the new SVG to the container
+            svgContainer.appendChild(svg);
+			
+			
+			// Get all elements with class .font-weight within the table
+			const fontWeightElements = document.querySelectorAll("#character-table .font-weight");
+
+			// Update the font weight for these elements
+			for (let i = 0; i < fontWeightElements.length; i++) {
+			fontWeightElements[i].style.fontWeight = fontWeight;
+				}
+        }
+
+        // Add an event listener to the range slider to update the font weight label
+        const rangeSlider = document.getElementById('font-weight-slider');
+        const fontWeightLabel = document.getElementById('font-weight-label');
+		
+		
+        
+        rangeSlider.addEventListener('input', function() {
+            const fontWeightValue = this.value;
+            fontWeightLabel.textContent = fontWeightValue;
+			
+			// Regenerate the SVG with the current character, font weight, and offsets
+            if (currentCharacter) {
+                generateSVG(currentCharacter);
+            }
+        });
+		
+		const ancizarSansMoveXSlider = document.getElementById('ancizar-sans-move-x');
+		const ancizarSansMoveXLabel = document.getElementById('ancizar-sans-move-x-label');
+		
+		ancizarSansMoveXSlider.addEventListener('input', function() {
+            const moveXValue = this.value;
+            ancizarSansMoveXLabel.textContent = moveXValue;
+
+            // Regenerate the SVG with the current character, font weight, and offsets
+            if (currentCharacter) {
+                generateSVG(currentCharacter);
+            }
+        });
+		
+		const defaultValue = 0;
+			ancizarSansMoveXSlider.value = defaultValue;
+
+			// Add an event listener to the reset button
+			resetButton.addEventListener("click", function () {
+            ancizarSansMoveXSlider.value = defaultValue;
+			ancizarSansMoveXLabel.textContent = defaultValue;			// Reset to the default value
+
+       if (currentCharacter) {
+                generateSVG(currentCharacter);
+            }
+        });
+        
+    </script>
+</div>
+	<br>
+<footer class="footer-container">
+  <div class="copyright">
+  Copyright © 2023 Universidad Nacional de Colombia.
+  <br>
+  Proyecto <span style="font-weight: 900">Ancízar 8.0.</div>
+  <div class="contact-info">Desarrollado por Raúl Aponte.
+  <br>
+  Contacto: <span class="mono">raaapontesu@unal.edu.co</span></div>
+  <img src="./Identidad/unimedios.jpg" alt="Unidad de Medios de Comunicación" class="logo">
+</footer>
+
+</body>
+</html>
